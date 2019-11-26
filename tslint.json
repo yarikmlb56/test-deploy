@@ -26,10 +26,9 @@
       "rxjs/Rx"
     ],
     "interface-name": false,
-    "max-classes-per-file": false,
     "max-line-length": [
       true,
-      140
+      120
     ],
     "member-access": false,
     "member-ordering": [
@@ -60,7 +59,6 @@
     "no-non-null-assertion": true,
     "no-redundant-jsdoc": true,
     "no-switch-case-fall-through": true,
-    "no-var-requires": false,
     "object-literal-key-quotes": [
       true,
       "as-needed"
@@ -83,9 +81,67 @@
     "template-banana-in-box": true,
     "template-no-negated-async": true,
     "use-lifecycle-interface": true,
-    "use-pipe-transform-interface": true
+    "use-pipe-transform-interface": true,
+    "no-empty-interface": true,
+    "no-parameter-reassignment": true,
+    "no-unnecessary-type-assertion": true,
+    "no-var-requires": true,
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ],
+    "unified-signatures": true,
+    "curly": true,
+    "function-constructor": true,
+    "no-async-without-await": true,
+    "no-conditional-assignment": true,
+    "no-construct": true,
+    "no-duplicate-variable": [
+      true,
+      "check-parameters"
+    ],
+    "no-shadowed-variable": true,
+    "no-sparse-arrays": true,
+    "no-string-literal": true,
+    "no-var-keyword": true,
+    "prefer-conditional-expression": [
+      true,
+      "check-else-if"
+    ],
+    "prefer-object-spread": true,
+    "strict-comparisons": true,
+    "unnecessary-constructor": true,
+    "max-classes-per-file": [
+      true,
+      1
+    ],
+    "max-file-line-count": [
+      true,
+      250
+    ],
+    "prefer-const": true,
+    "prefer-readonly": true,
+    "eofline": true,
+    "newline-before-return": true,
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-operator",
+      "check-separator",
+      "check-type",
+      "check-typecast",
+      "check-preblock"
+    ]
   },
   "rulesDirectory": [
     "codelyzer"
   ]
+
 }
