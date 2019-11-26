@@ -10,8 +10,12 @@ module.exports = function (config) {
       require('karma-chrome-launcher'),
       require('@angular-devkit/build-angular/plugins/karma'),
       require('karma-verbose-reporter'),
+      require('karma-coverage-istanbul-reporter')
     ],
-    reporters: ['verbose'],
+    reporters: ['verbose', 'coverage-istanbul'],
+    coverageIstanbulReporter: {
+      reports: ['html', 'text-summary'],
+    },
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
@@ -30,5 +34,25 @@ module.exports = function (config) {
       }
     },
     browsers: ['ChromeHeadless'],
+    thresholds: {
+      emitWarning: false,
+      global: {
+        statements: 100,
+        lines: 100,
+        branches: 100,
+        functions: 100
+      },
+      each: {
+        statements: 100,
+        lines: 100,
+        branches: 100,
+        functions: 100,
+        overrides: {
+          'baz/component/**/*.js': {
+            statements: 98
+          }
+        }
+      }
+    },
   });
 };
