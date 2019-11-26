@@ -35,7 +35,7 @@ module.exports = function (config) {
     },
     browsers: ['ChromeHeadless'],
     thresholds: {
-      emitWarning: false,
+      emitWarning: true,
       global: {
         statements: 100,
         lines: 100,
