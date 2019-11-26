@@ -12,9 +12,16 @@ module.exports = function (config) {
       require('karma-verbose-reporter'),
       require('karma-coverage-istanbul-reporter')
     ],
-    reporters: ['verbose', 'coverage-istanbul'],
+    reporters: ['verbose'],
     coverageIstanbulReporter: {
-      reports: ['html', 'text-summary'],
+      reports: [ 'html', 'text-summary' ],
+      fixWebpackSourcePaths: true,
+      thresholds: {
+        statements: 80,
+        lines: 80,
+        branches: 80,
+        functions: 80,
+      },
     },
     port: 9876,
     colors: true,
@@ -34,25 +41,5 @@ module.exports = function (config) {
       }
     },
     browsers: ['ChromeHeadless'],
-    thresholds: {
-      emitWarning: false,
-      global: {
-        statements: 100,
-        lines: 100,
-        branches: 100,
-        functions: 100
-      },
-      each: {
-        statements: 100,
-        lines: 100,
-        branches: 100,
-        functions: 100,
-        overrides: {
-          'baz/component/**/*.js': {
-            statements: 98
-          }
-        }
-      }
-    },
   });
 };

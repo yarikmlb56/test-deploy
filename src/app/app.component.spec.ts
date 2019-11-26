@@ -18,6 +18,7 @@ describe('AppComponent', () => {
 
   it('title should have correct value', () => {
     const component = new AppComponent();
+
     expect(component.title).toBe('title');
   });
 });
