@@ -9,9 +9,10 @@ module.exports = function (config) {
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
       require('@angular-devkit/build-angular/plugins/karma'),
+      require('karma-verbose-reporter'),
       require('karma-coverage-istanbul-reporter')
     ],
-    reporters: ['coverage-istanbul'],
+    reporters: ['verbose', 'coverage-istanbul'],
     coverageIstanbulReporter: {
       reports: ['html', 'text-summary'],
     },
