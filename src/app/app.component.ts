@@ -8,13 +8,4 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'title';
-
-  getTitle(): string {
-    return this.title;
-  }
-
-  getNewTitle(): string {
-    return 'title2';
-  }
-
 }
