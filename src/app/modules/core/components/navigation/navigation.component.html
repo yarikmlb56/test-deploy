@@ -1,0 +1,13 @@
+<div>
+  <app-logo></app-logo>
+  | Developer Network
+</div>
+
+<ul>
+  <li *ngFor="let page of pages">
+    <a [routerLink]="page.link"
+       routerLinkActive="active">
+      <span>{{ page?.name }} </span>
+    </a>
+  </li>
+</ul>
