@@ -1,0 +1,15 @@
+.reference-nav-item {
+  &__title {
+    color: #0064d6;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+  }
+
+  &__description {
+    color: #131313;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: bold;
+  }
+}

@@ -138,6 +138,7 @@
     "prefer-readonly": true,
     "eofline": true,
     "newline-before-return": true,
+    "no-trailing-whitespace": false,
     "whitespace": [
       true,
       "check-branch",

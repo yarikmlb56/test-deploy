@@ -5,11 +5,10 @@ import { SignInComponent } from './modules/signin/components/sign-in.component';
 import { SignUpComponent } from './modules/signup/components/sign-up.component';
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   redirectTo: '/home',
-  //   pathMatch: 'full'
-  // },
+  {
+    path: '',
+    loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule)
+  },
   {
     path: 'sign-in',
     component: SignInComponent
