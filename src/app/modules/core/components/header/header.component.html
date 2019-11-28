@@ -1,0 +1,9 @@
+<div class="header">
+  <div class="header__section header__section--left">
+    <span class="header__section_item">VertexInc.com</span>
+    <span class="header__section_item">myVertex.com</span>
+  </div>
+  <nav class="header__section header__section--right">
+    <a *ngFor="let item of items" class="header__section_item" [routerLink]="item.url">{{item.label}}</a>
+  </nav>
+</div>
