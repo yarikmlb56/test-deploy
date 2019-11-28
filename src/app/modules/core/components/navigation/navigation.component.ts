@@ -4,7 +4,8 @@ import { Page } from '../../../../../interfaces/page';
 
 @Component({
   selector: 'app-navigation',
-  templateUrl: './navigation.component.html'
+  templateUrl: './navigation.component.html',
+  styleUrls: ['./navigation.component.scss']
 })
 
 export class NavigationComponent {
