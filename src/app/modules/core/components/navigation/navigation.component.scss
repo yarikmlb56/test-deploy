@@ -3,6 +3,10 @@
     display: flex;
     align-items: center;
 
+    &--img {
+      height: 15px;
+    }
+
     &--text {
       margin-left: 5px;
       border-left: 1px solid #000000;
