@@ -1,0 +1,114 @@
+[33mcommit 2fa345466ac564fb3c4e36866ddde046f517b26c[m[33m ([m[1;36mHEAD -> [m[1;32mILCA-88[m[33m, [m[1;31morigin/ILCA-88[m[33m)[m
+Author: Viktoria Voloshchuk <viktoria_voloshchuk@epam.com>
+Date:   Wed Nov 27 15:47:11 2019 +0200
+
+    'initial-module-structure'
+
+[33mcommit 2ce803c6f331b32707a8ac325f80b13d0d34e142[m
+Author: Viktoria Voloshchuk <viktoria_voloshchuk@epam.com>
+Date:   Wed Nov 27 14:54:01 2019 +0200
+
+    fix lintning errors
+
+[33mcommit 140cf1c3b26136b2cc46613436ea5d93b23738f5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 54db1ea d7c7d78
+Author: Iaroslav Polubiedov <Iaroslav_Polubiedov@epam.com>
+Date:   Tue Nov 26 17:57:47 2019 +0200
+
+    Merge branch 'master' of github.com:yarikmlb56/test-deploy
+    
+    # Conflicts:
+    #       tslint.json
+
+[33mcommit 54db1eabfa93f84761541ff7c92750cc6b552bc4[m
+Author: Iaroslav Polubiedov <Iaroslav_Polubiedov@epam.com>
+Date:   Tue Nov 26 17:56:33 2019 +0200
+
+    exclude files for linter
+
+[33mcommit d7c7d78b45bf58dc6b818b7b6aa84b4aea34d48c[m
+Author: Viktoria Voloshchuk <viktoria_voloshchuk@epam.com>
+Date:   Tue Nov 26 16:49:38 2019 +0200
+
+    add linting rules
+
+[33mcommit 35024d0be3408f492687e3d8fb4bfcb6a23f7109[m
+Merge: e3c0ab4 f010224
+Author: Vika92 <viktoria2401gritsenko@gmail.com>
+Date:   Tue Nov 26 15:15:30 2019 +0200
+
+    Merge pull request #3 from yarikmlb56/precommit-setup
+    
+    Precommit setup
+
+[33mcommit f010224ac621174c05ee445919d76e18eb7c136f[m[33m ([m[1;31morigin/precommit-setup[m[33m, [m[1;32mprecommit-setup[m[33m)[m
+Author: Viktoria Voloshchuk <viktoria_voloshchuk@epam.com>
+Date:   Tue Nov 26 15:13:27 2019 +0200
+
+    update code coverage settings
+
+[33mcommit 6e30cbbafe0f56e8ec3de4c60bd881521c319dff[m
+Author: Viktoria Voloshchuk <viktoria_voloshchuk@epam.com>
+Date:   Tue Nov 26 14:47:35 2019 +0200
+
+    test
+
+[33mcommit e3c0ab422f8e4d59c34fb5f9c0b5b51440d6470d[m
+Merge: 9c030a7 e27c773
+Author: Iaroslav Polubiedov <56722170+yarikmlb56@users.noreply.github.com>
+Date:   Tue Nov 26 14:42:26 2019 +0200
+
+    Merge pull request #2 from yarikmlb56/test-coverage
+    
+    Test coverage
+
+[33mcommit e27c7735b6725984f547d7277d75e2fbd49827ff[m
+Author: Iaroslav Polubiedov <Iaroslav_Polubiedov@epam.com>
+Date:   Tue Nov 26 14:41:31 2019 +0200
+
+    return verbose report'
+
+[33mcommit 4d17e40d1b27bba78b68141ddaa7a08efdc79415[m
+Author: Iaroslav Polubiedov <Iaroslav_Polubiedov@epam.com>
+Date:   Tue Nov 26 14:18:24 2019 +0200
+
+    test pre commit"
+
+[33mcommit fa5a194420139a201ae13fd1f0bd02fca4a3e060[m
+Author: Iaroslav Polubiedov <Iaroslav_Polubiedov@epam.com>
+Date:   Tue Nov 26 13:52:32 2019 +0200
+
+    added tests coverage
+
+[33mcommit e3548c106850830064baf02cf4e6ed94f85e4586[m
+Author: Iaroslav Polubiedov <Iaroslav_Polubiedov@epam.com>
+Date:   Tue Nov 26 11:57:15 2019 +0200
+
+    test precommit hook
+
+[33mcommit 9c030a761563e9b35f880d3510e5ac51ac28ec2b[m
+Merge: cd24e2b 7bdd27d
+Author: Vika92 <viktoria2401gritsenko@gmail.com>
+Date:   Tue Nov 26 11:37:28 2019 +0200
+
+    Merge pull request #1 from yarikmlb56/precommit-setup
+    
+    Precommit setup
+
+[33mcommit 7bdd27ddb03e1e441c47225b35ba7d832322079b[m
+Author: Viktoria Voloshchuk <viktoria_voloshchuk@epam.com>
+Date:   Mon Nov 25 18:21:23 2019 +0200
+
+    configure tests
+
+[33mcommit 91dae517a4367daa8cc6220b3013f89dad77ae06[m
+Author: Viktoria Voloshchuk <viktoria_voloshchuk@epam.com>
+Date:   Mon Nov 25 16:06:21 2019 +0200
+
+    add scss, rename project
+
+[33mcommit cd24e2b1e28439012b02df7a6ce5e088d246082a[m
+Author: Iaroslav Polubiedov <Iaroslav_Polubiedov@epam.com>
+Date:   Wed Nov 20 16:30:16 2019 +0200
+
+    initial commit

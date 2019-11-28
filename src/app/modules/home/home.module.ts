@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { homeRoutingModule } from './home.routing';
+import { HomeComponent } from './home.component';
+import { HomeRoutingModule } from './home.routing';
+import { WelcomeComponent } from './components/welcome/welcome.component';
 import { HomeComponent } from './components/home/home.component';
 import { ApiReferenceComponent } from './components/api-reference/api-reference.component';
 // tslint:disable-next-line:import-spacing
@@ -15,13 +17,15 @@ import { ReferenceNavItemComponent } from
 @NgModule({
   declarations: [
     HomeComponent,
+    WelcomeComponent,
+    HomeComponent,
     ApiReferenceComponent,
     ReferenceTitleComponent,
     ReferenceNavComponent,
     ReferenceNavItemComponent,
   ],
   imports: [
-    homeRoutingModule,
+    HomeRoutingModule,
     CommonModule,
   ],
   providers: [],

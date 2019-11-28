@@ -1,0 +1,27 @@
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: no-repeat center url("../../../../../assets/images/welcome-bg.png");
+  background-size: cover;
+  height: 376px;
+  width: 100%;
+
+  color: #002c5f;
+  text-align: center;
+
+  &__main-title {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 53px;
+    width: 566px;
+  }
+  &__secondary-title {
+    margin-top: 5px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+}
