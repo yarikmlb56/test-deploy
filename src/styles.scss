@@ -3,6 +3,13 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  //display: flex;
+  //min-height: 100vh;
+  //flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
 }
 
 a {
@@ -11,7 +18,8 @@ a {
 }
 
 .content-container {
-  width: 1400px;
+  padding: 0 35px;
+  width: 1440px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

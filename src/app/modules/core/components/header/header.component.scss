@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 10px 20px;
+  padding: 10px 0;
 
   background-color: #fafafa;
 
@@ -33,7 +33,6 @@
       }
 
       &-item:last-child {
-        padding: 0 10px 0 0;
         cursor: pointer;
       }
     }
