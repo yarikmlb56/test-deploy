@@ -1,0 +1,22 @@
+<div class="navigation">
+  <div class="content-container navigation__container">
+    <div class="navigation__logo">
+      <app-logo class="navigation__logo--img"></app-logo>
+      <a class="navigation__logo--text"
+         routerLink="home">
+        Developer Network
+      </a>
+    </div>
+
+    <ul class="navigation__list">
+      <li *ngFor="let page of pages"
+          class="navigation__list_item">
+        <a [routerLink]="page.link"
+           class="navigation__list_item--link"
+           routerLinkActive="active">
+          <span>{{ page?.name }} </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
