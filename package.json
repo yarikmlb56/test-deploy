@@ -9,8 +9,7 @@
     "lint": "ng lint"
   },
   "pre-commit": [
-    "lint",
-    "test"
+    "lint"
   ],
   "private": true,
   "dependencies": {

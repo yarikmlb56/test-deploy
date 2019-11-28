@@ -1,0 +1,15 @@
+<div class="header">
+  <div class="content-container">
+    <div class="header__section header__section--left">
+      <span class="header__section_item header__section--left-item">VertexInc.com</span>
+      <span class="header__section_item header__section--left-item">myVertex.com</span>
+    </div>
+    <nav class="header__section header__section--right">
+      <a *ngFor="let item of items"
+         [routerLink]="item.route"
+         class="header__section_item header__section--right-item">
+        {{item.label}}
+      </a>
+    </nav>
+  </div>
+</div>

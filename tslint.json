@@ -97,9 +97,9 @@
     "typedef": [
       true,
       "call-signature",
-      "arrow-call-signature",
+//      "arrow-call-signature",
       "parameter",
-      "arrow-parameter",
+//      "arrow-parameter",
       "property-declaration",
       "variable-declaration",
       "object-destructuring",
@@ -138,6 +138,7 @@
     "prefer-readonly": true,
     "eofline": true,
     "newline-before-return": true,
+    "no-trailing-whitespace": false,
     "whitespace": [
       true,
       "check-branch",

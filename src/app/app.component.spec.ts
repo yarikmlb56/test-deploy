@@ -1,11 +1,15 @@
 import {TestBed, async, ComponentFixture} from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { CoreModule } from './modules/core/core.module';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
+      ],
+      imports: [
+        CoreModule,
       ],
     }).compileComponents();
   }));
@@ -15,11 +19,5 @@ describe('AppComponent', () => {
     const app: string = fixture.debugElement.componentInstance;
 
     expect(app).toBeTruthy();
-  });
-
-  it('title should have correct value', () => {
-    const component: AppComponent = new AppComponent();
-
-    expect(component.title).toBe('title');
   });
 });

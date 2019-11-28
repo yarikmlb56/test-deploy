@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #fafafa;
+
+  &__section {
+    &_item {
+      line-height: 30px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+    }
+
+    &--left {
+      &-item:first-child {
+        padding: 0 20px 0 0;
+        border-right: 1px solid rgba(0, 0, 0, 0.5);
+      }
+
+      &-item:last-child {
+        padding: 0 0 0 20px;
+      }
+    }
+
+    &--right {
+      &-item:first-child {
+        padding: 0 30px 0 0;
+        cursor: pointer;
+      }
+
+      &-item:last-child {
+        cursor: pointer;
+      }
+    }
+  }
+}

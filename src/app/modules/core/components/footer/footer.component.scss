@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  background-color: #484848;
+  height: 124px;
+  width: 100%;
+
+  &__section {
+    &--left {
+      display: flex;
+      align-items: center;
+      &-item:first-child {
+        padding: 0 7px 0 0;
+      }
+      &-item:last-child {
+        padding: 0 0 0 7px;
+        border-left: 1px solid #989898;
+        line-height: 14px;
+        color: #adafb2;
+        font-weight: 500;
+      }
+    }
+  }
+}
