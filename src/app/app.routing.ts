@@ -5,11 +5,11 @@ import { SignInComponent } from './modules/signin/components/sign-in.component';
 import { SignUpComponent } from './modules/signup/components/sign-up.component';
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   redirectTo: '/home',
-  //   pathMatch: 'full'
-  // },
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
   {
     path: 'sign-in',
     component: SignInComponent
@@ -20,4 +20,4 @@ const routes: Routes = [
   }
 ];
 
-export const appRoutingModule: ModuleWithProviders<RouterModule> = RouterModule.forRoot(routes, {enableTracing: true});
+export const AppRoutingModule: ModuleWithProviders<RouterModule> = RouterModule.forRoot(routes, {enableTracing: true});
