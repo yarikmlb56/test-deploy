@@ -1,0 +1,29 @@
+.api-reference {
+  display: flex;
+  align-items: center;
+
+  &__container {
+    position: relative;
+  }
+
+  &__title {
+    flex: 0 0 408px;
+    padding: 242px 0 366px 74px;
+    z-index: 2;
+
+    &--img {
+      position: absolute;
+      left: -68px;
+      top: 120px;
+      background-image: url(/assets/images/graphic.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 421px;
+      width: 421px;
+    }
+  }
+
+  &__nav {
+    margin-top: 112px;
+  }
+}
