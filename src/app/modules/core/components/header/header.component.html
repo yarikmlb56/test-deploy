@@ -4,6 +4,6 @@
     <span class="header__section_item">myVertex.com</span>
   </div>
   <nav class="header__section header__section--right">
-    <a *ngFor="let item of items" class="header__section_item" [routerLink]="item.url">{{item.label}}</a>
+    <a *ngFor="let item of items" class="header__section_item" [routerLink]="item.route">{{item.label}}</a>
   </nav>
 </div>

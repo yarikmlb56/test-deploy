@@ -11,6 +11,10 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'home',
+    loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule)
+  },
+  {
     path: 'sign-in',
     component: SignInComponent
   },
