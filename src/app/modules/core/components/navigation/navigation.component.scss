@@ -1,0 +1,30 @@
+.navigation {
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    &--img {
+      height: 15px;
+    }
+
+    &--text {
+      margin-left: 5px;
+      border-left: 1px solid #000000;
+      padding-left: 5px;
+      color: #adafb2;
+      font-family: 'Verdana';
+    }
+  }
+
+  &__list {
+    &_item {
+      list-style: none;
+
+      &--link {
+        text-decoration: none;
+        color: #131313;
+        font-weight: bold;
+      }
+    }
+  }
+}

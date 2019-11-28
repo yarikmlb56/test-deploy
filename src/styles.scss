@@ -2,8 +2,17 @@
 
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
- a {
-   text-decoration: none;
-   color: inherit;
- }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content-container {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
