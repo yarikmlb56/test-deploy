@@ -1,1 +1,12 @@
-<img class="logo" src="{{logoSrc}}">
+<div class="logo">
+  <img *ngIf="!inverted"
+       class="logo__img"
+       src="{{logoSrc}}">
+  <img *ngIf="inverted"
+       class="logo__img"
+       src="{{invertedLogoSrc}}">
+  <a class="logo__text"
+     routerLink="">
+    Developer Network
+  </a>
+</div>

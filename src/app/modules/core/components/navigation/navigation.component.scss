@@ -1,21 +1,8 @@
 .navigation {
   display: flex;
 
-  &__logo {
-    display: flex;
+  &__container {
     align-items: center;
-
-    &--img {
-      height: 15px;
-    }
-
-    &--text {
-      margin-left: 5px;
-      border-left: 1px solid #000000;
-      padding-left: 5px;
-      color: #adafb2;
-      font-family: 'Verdana';
-    }
   }
 
   &__list {

@@ -1,12 +1,8 @@
 <div class="navigation">
   <div class="content-container navigation__container">
-    <div class="navigation__logo">
-      <app-logo class="navigation__logo--img"></app-logo>
-      <a class="navigation__logo--text"
-         routerLink="home">
-        Developer Network
-      </a>
-    </div>
+    <app-logo [inverted]="false"
+              class="navigation__logo">
+    </app-logo>
 
     <ul class="navigation__list">
       <li *ngFor="let page of pages"

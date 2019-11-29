@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-logo',
@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 
 export class LogoComponent {
+  @Input() inverted: boolean;
+
   readonly logoSrc = '/assets/images/logo.svg';
+  readonly invertedLogoSrc = '/assets/images/footer-logo_white.png';
 }
