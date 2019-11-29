@@ -9,6 +9,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 export class SignInComponent implements OnInit {
   signInForm: FormGroup;
+  isSubmitted = false;
 
   ngOnInit(): void {
     this.signInForm = this.initSignInForm();
@@ -16,6 +17,7 @@ export class SignInComponent implements OnInit {
 
   public onSubmit(): void {
     // TODO wrote sign in functionality with AuthService
+    this.isSubmitted = true;
   }
 
   private initSignInForm(): FormGroup {

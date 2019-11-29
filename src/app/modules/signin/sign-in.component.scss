@@ -39,17 +39,36 @@
           color: #131313;
           opacity: 0.5;
           box-sizing: border-box;
+
+          &.control-error {
+            border: 1px solid red;
+          }
         }
       }
     }
 
-    &_btn {
-      color: #ffffff;
-      font-size: 14px;
-      font-family: 'Montserrat';
-      background-color: #0064d6;
-      border: none;
-      padding: 18px 28px;
+    &_btn-block {
+      position: relative;
+
+      &_btn {
+        color: #ffffff;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        background-color: #0064d6;
+        border: none;
+        padding: 18px 28px;
+        cursor: pointer;
+      }
+
+      &_error {
+        position: absolute;
+        right: 0;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        padding: 18px 28px;
+        background:#ffecec;
+        border:1px solid #f5aca6;
+      }
     }
   }
 

@@ -14,6 +14,10 @@
           Username
         </span>
             <input [formControl]="signInForm.controls['userName']"
+                   [ngClass]="{
+                   'control-error': isSubmitted
+                                    && signInForm.controls['userName'].hasError('required')
+                   }"
                    class="sign-in__form_item_control--input"
                    placeholder="name@email.com"
                    type="text">
@@ -26,13 +30,23 @@
           Password
         </span>
             <input [formControl]="signInForm.controls['password']"
+                   [ngClass]="{
+                   'control-error': isSubmitted
+                                    && signInForm.controls['userName'].hasError('required')
+                   }"
                    class="sign-in__form_item_control--input"
                    placeholder="password"
                    type="text">
           </label>
         </div>
 
-        <button class="sign-in__form_btn">{{"login" | uppercase}}</button>
+        <div class="sign-in__form_btn-block">
+          <div *ngIf="isSubmitted && signInForm.invalid"
+               class="sign-in__form_btn-block_error">
+            Please fill All Information
+          </div>
+          <button class="sign-in__form_btn-block_btn">{{"login" | uppercase}}</button>
+        </div>
       </form>
 
       <div>
