@@ -32,7 +32,7 @@
             <input [formControl]="signInForm.controls['password']"
                    [ngClass]="{
                    'control-error': isSubmitted
-                                    && signInForm.controls['userName'].hasError('required')
+                                    && signInForm.controls['password'].hasError('required')
                    }"
                    class="sign-in__form_item_control--input"
                    placeholder="password"
