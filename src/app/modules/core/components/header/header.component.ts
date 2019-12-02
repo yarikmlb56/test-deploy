@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { LinkConfig } from 'src/interfaces/link-config';
+import { LinkConfig } from 'src/types/interfaces/link-config';
 
 @Component({
   selector: 'app-header',
