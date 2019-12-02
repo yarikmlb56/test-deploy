@@ -1,0 +1,69 @@
+<div class="sign-in">
+  <div class="content-container">
+    <p class="sign-in__title">
+      Login to Your Account
+    </p>
+
+    <div class="form-container">
+      <form (submit)="onSubmit()"
+            [formGroup]="signInForm"
+            class="sign-in__form">
+        <div class="sign-in__form_item">
+          <label class="sign-in__form_item_control">
+        <span class="sign-in__form_item_control--label">
+          Username
+        </span>
+            <input [formControl]="signInForm.controls['userName']"
+                   [ngClass]="{
+                   'control-error': isSubmitted
+                                    && signInForm.controls['userName'].hasError('required')
+                   }"
+                   class="sign-in__form_item_control--input"
+                   placeholder="name@email.com"
+                   type="text">
+          </label>
+        </div>
+
+        <div class="sign-in__form_item">
+          <label class="sign-in__form_item_control">
+        <span class="sign-in__form_item_control--label">
+          Password
+        </span>
+            <input [formControl]="signInForm.controls['password']"
+                   [ngClass]="{
+                   'control-error': isSubmitted
+                                    && signInForm.controls['password'].hasError('required')
+                   }"
+                   class="sign-in__form_item_control--input"
+                   placeholder="password"
+                   type="text">
+          </label>
+        </div>
+
+        <div class="sign-in__form_btn-block">
+          <div *ngIf="isSubmitted && signInForm.invalid"
+               class="sign-in__form_btn-block_error">
+            Please fill All Information
+          </div>
+          <button class="sign-in__form_btn-block_btn">{{"login" | uppercase}}</button>
+        </div>
+      </form>
+
+      <div>
+        <p>
+          <a class="sign-in__link"
+             routerLink="">
+            Forgot your username or password?
+          </a>
+        </p>
+        <p>Not registered yet?
+          <a class="sign-in__link"
+             routerLink="/sign-up">
+            Create Your Account
+          </a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,82 @@
+.sign-in {
+  display: flex;
+  background: linear-gradient(180deg, #e9f3fa 0%, #ffffff 100%);
+
+  .content-container {
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    flex: 0 0 100%;
+    color: #002c5f;
+    font-family: 'Montserrat';
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+  }
+
+  &__form {
+    &_item {
+      margin-bottom: 18px;
+
+      &_control {
+        &--label {
+          width: 100%;
+          color: #131313;
+          font-family: 'Montserrat';
+          font-size: 16px;
+          line-height: 26px;
+        }
+
+        &--input {
+          width: 100%;
+          padding: 20px 16px;
+          border: 1px solid #cbcbcb;
+          font-size: 16px;
+          line-height: 26px;
+          font-family: Montserrat;
+          color: #131313;
+          opacity: 0.5;
+          box-sizing: border-box;
+
+          &.control-error {
+            border: 1px solid red;
+          }
+        }
+      }
+    }
+
+    &_btn-block {
+      position: relative;
+
+      &_btn {
+        color: #ffffff;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        background-color: #0064d6;
+        border: none;
+        padding: 18px 28px;
+        cursor: pointer;
+      }
+
+      &_error {
+        position: absolute;
+        right: 0;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        padding: 18px 28px;
+        background:#ffecec;
+        border:1px solid #f5aca6;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    line-height: 23px;
+    color: #0064d6;
+    font-weight: 400;
+  }
+}

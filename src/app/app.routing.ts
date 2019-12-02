@@ -1,7 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
-import { SignInComponent } from './modules/signin/components/sign-in.component';
 import { SignUpComponent } from './modules/signup/components/sign-up.component';
 
 const routes: Routes = [
@@ -11,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: 'sign-in',
-    component: SignInComponent
+    loadChildren: () => import('./modules/signin/sign-in.module').then(m => m.SignInModule)
   },
   {
     path: 'sign-up',
