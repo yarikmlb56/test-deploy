@@ -2,11 +2,11 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-welcome',
-  templateUrl: './welcome.component.html',
-  styleUrls: ['./welcome.component.scss']
+  templateUrl: './banner-section.component.html',
+  styleUrls: ['./banner-section.component.scss']
 })
 
-export class WelcomeComponent {
+export class BannerSectionComponent {
   @Input() title: string;
 
   @Input() subTitle: string;

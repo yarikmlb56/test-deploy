@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home.routing';
 import { HomeComponent } from './home.component';
-import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ApiReferenceComponent } from './components/api-reference/api-reference.component';
 // tslint:disable-next-line:import-spacing
 import { ReferenceTitleComponent } from
@@ -12,11 +11,11 @@ import { ReferenceNavComponent } from './components/api-reference/components/ref
 // tslint:disable-next-line:import-spacing
 import { ReferenceNavItemComponent } from
     './components/api-reference/components/reference-nav/components/reference-nav-item/reference-nav-item.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
     HomeComponent,
-    WelcomeComponent,
     HomeComponent,
     ApiReferenceComponent,
     ReferenceTitleComponent,
@@ -26,6 +25,7 @@ import { ReferenceNavItemComponent } from
   imports: [
     HomeRoutingModule,
     CommonModule,
+    SharedModule,
   ],
   providers: [],
   exports: [
