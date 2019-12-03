@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import {ModuleWithProviders, NgModule, Type,} from '@angular/core';
+import {ModuleWithProviders, NgModule, Type } from '@angular/core';
 
 import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
