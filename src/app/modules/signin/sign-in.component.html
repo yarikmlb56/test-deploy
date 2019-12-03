@@ -9,44 +9,33 @@
             [formGroup]="signInForm"
             class="sign-in__form">
         <div class="sign-in__form_item">
-          <label class="sign-in__form_item_control">
-        <span class="sign-in__form_item_control--label">
-          Username
-        </span>
-            <input [formControl]="signInForm.controls['userName']"
-                   [ngClass]="{
-                   'control-error': isSubmitted
-                                    && signInForm.controls['userName'].hasError('required')
-                   }"
-                   class="sign-in__form_item_control--input"
-                   placeholder="name@email.com"
-                   type="text">
-          </label>
+          <app-input
+            [parentForm]="signInForm"
+            label="Username"
+            placeholder="name@email.com"
+            [hasError]="isSubmitted && signInForm.controls['userName'].hasError('required')"
+            controlName="userName"
+            controlClassName="sign-in__form_item_control"
+            (handleFocus)="onFocus($event)">
+          </app-input>
         </div>
 
         <div class="sign-in__form_item">
-          <label class="sign-in__form_item_control">
-        <span class="sign-in__form_item_control--label">
-          Password
-        </span>
-            <input [formControl]="signInForm.controls['password']"
-                   [ngClass]="{
-                   'control-error': isSubmitted
-                                    && signInForm.controls['password'].hasError('required')
-                   }"
-                   class="sign-in__form_item_control--input"
-                   placeholder="password"
-                   type="text">
-          </label>
+          <app-input
+            [parentForm]="signInForm"
+            label="Password"
+            [hasError]="isSubmitted && signInForm.controls['password'].hasError('required')"
+            controlName="password"
+            controlClassName="sign-in__form_item_control"
+            (handleFocus)="onFocus($event)">
+          </app-input>
         </div>
-
-        <div class="sign-in__form_btn-block">
-          <div *ngIf="isSubmitted && signInForm.invalid"
-               class="sign-in__form_btn-block_error">
-            Please fill All Information
-          </div>
-          <button class="sign-in__form_btn-block_btn">{{"login" | uppercase}}</button>
+        <div class="sign-in__form_btn-block_error">
+          <ng-container *ngIf="isSubmitted">
+            {{error}}
+          </ng-container>
         </div>
+        <button class="sign-in__form_btn-block_btn">{{"login" | uppercase}}</button>
       </form>
 
       <div>

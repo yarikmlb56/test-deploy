@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ReferenceNavItem } from '../../../../../../../../../interfaces/referenceNavItem';
+import { ReferenceNavItem } from '../../../../../../../../../types/interfaces/referenceNavItem';
 
 @Component({
   selector: 'app-reference-nav-item',

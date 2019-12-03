@@ -1,0 +1,29 @@
+label {
+  width: 100%;
+  color: #131313;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 26px;
+}
+
+input {
+  width: 100%;
+  padding: 20px 16px;
+  border: 1px solid #cbcbcb;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Montserrat;
+  color: #131313;
+  opacity: 0.5;
+  box-sizing: border-box;
+  outline: none;
+
+  &.control-error {
+    border: 1px solid #d50000;
+  }
+
+  &:focus {
+    border:  1px solid #999999;
+  }
+}
+
