@@ -1,6 +1,6 @@
 import {TestBed, async, ComponentFixture} from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { CoreModule } from './modules/core/core.module';
+import { appModuleImports } from './app.module';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -9,7 +9,7 @@ describe('AppComponent', () => {
         AppComponent
       ],
       imports: [
-        CoreModule,
+        appModuleImports
       ],
     }).compileComponents();
   }));
@@ -17,7 +17,14 @@ describe('AppComponent', () => {
   it('should create the app', () => {
     const fixture: ComponentFixture<AppComponent> = TestBed.createComponent(AppComponent);
     const app: string = fixture.debugElement.componentInstance;
+    expect(app).toBeDefined();
+  });
 
-    expect(app).toBeTruthy();
+  it('should have other components', () => {
+    const fixture: ComponentFixture<AppComponent> = TestBed.createComponent(AppComponent);
+    const app: HTMLElement = fixture.debugElement.nativeElement;
+    expect(app.querySelector('app-header')).toBeTruthy();
+    expect(app.querySelector('app-navigation')).toBeTruthy();
+    expect(app.querySelector('app-footer')).toBeTruthy();
   });
 });

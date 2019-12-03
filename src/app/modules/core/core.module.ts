@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {ModuleWithProviders, NgModule, Type} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
@@ -7,6 +7,12 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { LogoComponent } from './components/logo/logo.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+/* tslint:disable-next-line */
+export const coreModuleImports: Array<Type<any> | ModuleWithProviders<{}> | any[]> = [
+  CommonModule,
+  RouterModule,
+];
+
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -14,10 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
     LogoComponent,
     FooterComponent,
   ],
-  imports: [
-    CommonModule,
-    RouterModule,
-  ],
+  imports: coreModuleImports,
   providers: [],
   exports: [
     HeaderComponent,
