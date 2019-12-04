@@ -1,17 +1,19 @@
-<div class="navigation">
-  <div class="content-container navigation__container">
-    <app-logo [type]="logoType.Header" class="navigation__logo"></app-logo>
+<div class="navigation" qa="navigation">
+  <div class="content-container navigation__container" qa="navigation__container">
+    <app-logo [type]="logoType.Header" class="navigation__logo" qa="navigation__logo"></app-logo>
 
-    <ul class="navigation__list">
+    <ul class="navigation__list" qa="navigation__list">
       <li *ngFor="let navigationItem of navigationItems"
           [type]="navigationItem.label"
           (mouseenter)="handleMouseEnter($event)"
           (mouseleave)="handleMouseLeave($event)"
-          class="navigation__list_item">
+          class="navigation__list_item"
+          qa="navigation__list_item">
         <a [routerLink]="navigationItem.route"
            class="navigation__list_item--link"
            [ngClass]="{'dropdown-opened': hasMouseEvent(navigationItem.label) && isDropdownOpened}"
-           routerLinkActive="active">
+           routerLinkActive="active"
+           qa="navigation__list_item--link">
           <span>{{ navigationItem?.label }} </span>
         </a>
 

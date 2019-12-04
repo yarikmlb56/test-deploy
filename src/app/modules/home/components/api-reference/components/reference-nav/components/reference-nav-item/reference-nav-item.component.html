@@ -1,9 +1,10 @@
-<div class="reference-nav-item">
+<div class="reference-nav-item" qa="reference-nav-item">
   <a [routerLink]="referenceNavItem.route"
-     class="reference-nav-item__title">
+     class="reference-nav-item__title"
+     qa="reference-nav-item__title">
     {{referenceNavItem.label}}
   </a>
-  <div class="reference-nav-item__description">
+  <div class="reference-nav-item__description" qa="reference-nav-item__description">
     {{referenceNavItem.description}}
   </div>
 </div>

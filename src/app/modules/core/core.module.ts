@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {ModuleWithProviders, NgModule, Type} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
@@ -8,6 +8,12 @@ import { LogoComponent } from './components/logo/logo.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavigationDropdownComponent } from './components/navigation/components/navigation-dropdown.component';
 
+/* tslint:disable-next-line */
+export const coreModuleImports: Array<Type<any> | ModuleWithProviders<{}> | any[]> = [
+  CommonModule,
+  RouterModule,
+];
+
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -16,10 +22,7 @@ import { NavigationDropdownComponent } from './components/navigation/components/
     LogoComponent,
     FooterComponent,
   ],
-  imports: [
-    CommonModule,
-    RouterModule,
-  ],
+  imports: coreModuleImports,
   providers: [],
   exports: [
     HeaderComponent,

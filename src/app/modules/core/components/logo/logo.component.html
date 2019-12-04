@@ -1,6 +1,8 @@
-<div class="logo">
-  <img class="logo__img" [src]="type">
-  <a class="logo__text" routerLink="/">
-    Developer Network
+<div class="logo" qa="logo">
+  <a class="logo__container" qa="logo__container" routerLink="/">
+    <img [src]="type" class="logo__container__img" qa="logo__container__img">
+    <span class="logo__text" qa="logo__text">
+      Developer Network
+    </span>
   </a>
 </div>
