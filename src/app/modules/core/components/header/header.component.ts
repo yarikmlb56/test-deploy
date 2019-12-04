@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { LinkConfig } from 'src/types/interfaces/link-config';
+import { NavigationItem } from 'src/types/interfaces/navigation-item';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +8,7 @@ import { LinkConfig } from 'src/types/interfaces/link-config';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  items: LinkConfig[] = [
+  items: NavigationItem[] = [
     { route: '/sign-in', label: 'Login' },
     { route: '/sign-up', label: 'Create account' }
   ];

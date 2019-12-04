@@ -6,13 +6,29 @@
   }
 
   &__list {
+    margin-top: 0;
+    margin-bottom: 0;
+
     &_item {
+      position: relative;
       list-style: none;
+      padding: 16px 0;
 
       &--link {
         text-decoration: none;
         color: #131313;
         font-weight: 500;
+
+        &.dropdown-opened {
+          color: #0064d6;
+        }
+      }
+
+      &_dropdown {
+        position: absolute;
+        padding-top: 42px;
+        top: 20px;
+        right: 0;
       }
     }
   }

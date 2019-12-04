@@ -1,5 +1,5 @@
-export interface ReferenceNavItem {
-  name: string;
-  link: string;
+import { NavigationItem } from './navigation-item';
+
+export interface ReferenceNavItem extends NavigationItem {
   description: string;
 }
