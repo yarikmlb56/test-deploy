@@ -6,7 +6,8 @@
     "start": "ng serve --configuration es5",
     "build": "ng build --configuration es5",
     "test": "ng test --no-watch",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "dist-deploy": "http-server ./dist/vertex-dev-portal"
   },
   "pre-commit": [
     "lint"
