@@ -117,7 +117,7 @@
     ],
     "no-shadowed-variable": true,
     "no-sparse-arrays": true,
-    "no-string-literal": true,
+    "no-string-literal": false,
     "no-var-keyword": true,
     "prefer-conditional-expression": [
       true,

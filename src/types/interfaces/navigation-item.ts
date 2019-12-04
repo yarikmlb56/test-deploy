@@ -1,4 +1,4 @@
-export interface LinkConfig {
+export interface NavigationItem {
   route: string;
   label: string;
 }

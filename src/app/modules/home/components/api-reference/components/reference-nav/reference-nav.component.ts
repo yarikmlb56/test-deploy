@@ -10,8 +10,8 @@ import { ReferenceNavItem } from '../../../../../../../types/interfaces/referenc
 export class ReferenceNavComponent {
   readonly referenceNavItems: ReferenceNavItem[] = [
     {
-      name: 'Sales Tax APIs',
-      link: '#',
+      label: 'Sales Tax APIs',
+      route: '#',
       description: `Doing business in the U.S. presents a labyrinth of taxing jurisdictions and never-ending changes
        to rules and rates. You’ll need a corporate tax partner who knows the ropes.`
     }

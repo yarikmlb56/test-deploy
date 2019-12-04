@@ -1,0 +1,16 @@
+<div class="navigation-dropdown" qa="navigation-dropdown">
+  <div class="navigation-dropdown__title" qa="navigation-dropdown__title">
+    ALL APIs
+  </div>
+  <ul class="navigation-dropdown__nav-list" qa="navigation-dropdown__nav-list">
+    <li *ngFor="let item of navigationItems"
+        class="navigation-dropdown__nav-list_item"
+        qa="navigation-dropdown__nav-list_item">
+      <a [routerLink]="item.route"
+         class="navigation-dropdown__nav-list_item--link"
+         qa="navigation-dropdown__nav-list_item--link">
+        {{item.label}}
+      </a>
+    </li>
+  </ul>
+</div>
