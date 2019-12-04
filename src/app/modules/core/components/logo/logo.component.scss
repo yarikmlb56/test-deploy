@@ -2,8 +2,11 @@
   display: flex;
   align-items: center;
 
-  &__img-container {
+  &__container {
     height: 15px;
+    display: flex;
+    align-items: center;
+
     &__img {
       height: inherit;
     }
@@ -11,9 +14,10 @@
 
   &__text {
     margin-left: 5px;
-    border-left: 1px solid #414042;
+    border-left: 1px solid #adafb2;
     padding-left: 5px;
     color: #adafb2;
+    line-height: 15px;
     font-family: 'Verdana';
   }
 }
