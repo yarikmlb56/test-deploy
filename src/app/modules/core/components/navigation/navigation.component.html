@@ -1,13 +1,15 @@
-<div class="navigation">
-  <div class="content-container navigation__container">
-    <app-logo [type]="logoType.Header" class="navigation__logo"></app-logo>
+<div class="navigation" qa="navigation">
+  <div class="content-container navigation__container" qa="navigation__container">
+    <app-logo [type]="logoType.Header" class="navigation__logo" qa="navigation__logo"></app-logo>
 
-    <ul class="navigation__list">
+    <ul class="navigation__list" qa="navigation__list">
       <li *ngFor="let page of pages"
-          class="navigation__list_item">
+          class="navigation__list_item"
+          qa="navigation__list_item">
         <a [routerLink]="page.link"
            class="navigation__list_item--link"
-           routerLinkActive="active">
+           routerLinkActive="active"
+           qa="navigation__list_item--link">
           <span>{{ page?.name }} </span>
         </a>
       </li>
