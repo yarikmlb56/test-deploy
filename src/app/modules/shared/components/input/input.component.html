@@ -1,12 +1,13 @@
 <ng-container [formGroup]="parentForm">
-  <label [class]="controlClassName">
-    <span [class]="controlClassName + '--label'">
+  <label [class]="controlClassName" [attr.qa]="controlClassName">
+    <span [class]="controlClassName + '--label'" [attr.qa]="controlClassName + '--label'">
       {{label}}
     </span>
       <input
         [formControlName]="controlName"
         [ngClass]="{'control-error': hasError}"
         [class]="controlClassName + '--input'"
+        [attr.qa]="controlClassName + '--input'"
         [placeholder]="placeholder"
         type="text"
         (focus)="onFocus($event)">

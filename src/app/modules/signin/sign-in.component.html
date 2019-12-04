@@ -1,14 +1,15 @@
-<div class="sign-in">
-  <div class="content-container">
-    <p class="sign-in__title">
+<div class="sign-in" qa="sign-in">
+  <div class="content-container" qa="content-container">
+    <p class="sign-in__title" qa="sign-in__title">
       Login to Your Account
     </p>
 
-    <div class="form-container">
+    <div class="form-container" qa="form-container">
       <form (submit)="onSubmit()"
             [formGroup]="signInForm"
-            class="sign-in__form">
-        <div class="sign-in__form_item">
+            class="sign-in__form"
+            qa="sign-in__form">
+        <div class="sign-in__form_item" qa="sign-in__form_item">
           <app-input
             [parentForm]="signInForm"
             label="Username"
@@ -20,7 +21,7 @@
           </app-input>
         </div>
 
-        <div class="sign-in__form_item">
+        <div class="sign-in__form_item" qa="sign-in__form_item">
           <app-input
             [parentForm]="signInForm"
             label="Password"
@@ -30,23 +31,29 @@
             (handleFocus)="onFocus($event)">
           </app-input>
         </div>
-        <div class="sign-in__form_btn-block_error">
+        <div class="sign-in__form_btn-block_error" qa="sign-in__form_btn-block_error">
           <ng-container *ngIf="isSubmitted">
             {{error}}
           </ng-container>
         </div>
-        <button class="sign-in__form_btn-block_btn">{{"login" | uppercase}}</button>
+        <button
+          class="sign-in__form_btn-block_btn"
+          qa="sign-in__form_btn-block_btn">
+          {{"login" | uppercase}}
+        </button>
       </form>
 
       <div>
         <p>
           <a class="sign-in__link"
+             qa="sign-in__link"
              routerLink="">
             Forgot your username or password?
           </a>
         </p>
         <p>Not registered yet?
           <a class="sign-in__link"
+             qa="sign-in__link"
              routerLink="/sign-up">
             Create Your Account
           </a>
