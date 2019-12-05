@@ -12,7 +12,9 @@ import { LogoType } from 'src/types/enums/logoType';
 export class NavigationComponent implements OnInit {
   readonly logoType = LogoType;
   readonly navigationItems: NavigationItem[] = [
-    {label: 'APIs', route: '#'},
+    {label: 'APIs', route: '#', children: [{
+        label: 'APIs', route: '#'
+      }]},
   ];
 
   public isDropdownOpened = false;
@@ -21,8 +23,8 @@ export class NavigationComponent implements OnInit {
     console.log(18, LogoType.Header);
   }
 
-  handleMouseEnter(event: Event): void {
-    if (this.hasMouseEvent(event.target)) {
+  handleMouseEnter(event: Event, navigationItem: NavigationItem): void {
+    if (this.hasDropdown(navigationItem)) {
       this.isDropdownOpened = true;
     }
   }
@@ -31,11 +33,7 @@ export class NavigationComponent implements OnInit {
     this.isDropdownOpened = false;
   }
 
-  private hasMouseEvent(element: EventTarget | string): boolean {
-    if (typeof element === 'string') {
-      return element.toLowerCase() === 'apis';
-    }
-
-    return (element['type']).toLowerCase() === 'apis';
+  private hasDropdown(navItem: NavigationItem): boolean {
+    return !!navItem.children.length;
   }
 }

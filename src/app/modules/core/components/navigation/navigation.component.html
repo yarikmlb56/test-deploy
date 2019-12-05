@@ -3,13 +3,13 @@
     <app-logo [type]="logoType.Header" class="navigation__logo" qa="navigation__logo"></app-logo>
 
     <ul class="navigation__list" qa="navigation__list">
-      <li (mouseenter)="handleMouseEnter($event)"
+      <li (mouseenter)="handleMouseEnter($event, navigationItem)"
           (mouseleave)="handleMouseLeave($event)"
           *ngFor="let navigationItem of navigationItems"
           [type]="navigationItem.label"
           class="navigation__list_item"
           qa="navigation__list_item">
-        <a [ngClass]="{'dropdown-opened': hasMouseEvent(navigationItem.label) && isDropdownOpened}"
+        <a [ngClass]="{'dropdown-opened': hasDropdown(navigationItem) && isDropdownOpened}"
            [routerLink]="navigationItem.route"
            class="navigation__list_item--link"
            qa="navigation__list_item--link"
@@ -17,7 +17,7 @@
           <span>{{ navigationItem?.label }} </span>
         </a>
 
-        <app-navigation-dropdown *ngIf="hasMouseEvent(navigationItem.label) && isDropdownOpened"
+        <app-navigation-dropdown *ngIf="hasDropdown(navigationItem) && isDropdownOpened"
                                  class="navigation__list_item_dropdown"
                                  qa="navigation__list_item_dropdown">
         </app-navigation-dropdown>
