@@ -14,7 +14,8 @@ export class NavigationComponent implements OnInit {
   readonly navigationItems: NavigationItem[] = [
     {label: 'APIs', route: '#', children: [{
         label: 'APIs', route: '#'
-      }]},
+      }]
+    }
   ];
 
   public isDropdownOpened = false;
@@ -34,6 +35,6 @@ export class NavigationComponent implements OnInit {
   }
 
   private hasDropdown(navItem: NavigationItem): boolean {
-    return !!navItem.children.length;
+    return !!navItem.children && !!navItem.children.length;
   }
 }

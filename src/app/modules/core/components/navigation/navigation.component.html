@@ -18,6 +18,7 @@
         </a>
 
         <app-navigation-dropdown *ngIf="hasDropdown(navigationItem) && isDropdownOpened"
+                                 [navigationItems]="navigationItem.children"
                                  class="navigation__list_item_dropdown"
                                  qa="navigation__list_item_dropdown">
         </app-navigation-dropdown>
