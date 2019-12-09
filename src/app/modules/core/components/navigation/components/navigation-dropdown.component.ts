@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavigationItem } from '../../../../../../types/interfaces/navigation-item';
 
 @Component({
@@ -8,5 +8,7 @@ import { NavigationItem } from '../../../../../../types/interfaces/navigation-it
 })
 
 export class NavigationDropdownComponent {
-  @Input() navigationItems: NavigationItem[];
+  readonly navigationItems: NavigationItem[] = [
+    { label: 'APIs', route: 'api'}
+  ];
 }
