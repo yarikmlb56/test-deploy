@@ -16,6 +16,10 @@ const routes: Routes = [
     path: 'sign-up',
     component: SignUpComponent
   },
+  {
+    path: 'api',
+    loadChildren: () => import('./modules/api/api.module').then(m => m.ApiModule)
+  },
 ];
 
 export const AppRoutingModule: ModuleWithProviders<RouterModule> = RouterModule.forRoot(routes, {enableTracing: true});
