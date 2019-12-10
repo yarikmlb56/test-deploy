@@ -1,5 +1,5 @@
-export default `
-    <div class="toc-wrapper">
+/* tslint:disable */
+export default `<div class="toc-wrapper">
       
         <div class="lang-selector">
           
@@ -18,47 +18,47 @@ export default `
 	  	<ul class="toc-list-h1">
         
           <li>
-            <a href="#api-for-tax-calculator" class="toc-h1 toc-link" data-title="API for Tax Calculator v0.0.2 alfa, Dec 2019">API for Tax Calculator v0.0.2 alfa, Dec 2019</a>
+            <span data-href="#api-for-tax-calculator" class="toc-h1 toc-link" data-title="API for Tax Calculator v0.0.2 alfa, Dec 2019">API for Tax Calculator v0.0.2 alfa, Dec 2019</span>
             
           </li>
         
           <li>
-            <a href="#authentication" class="toc-h1 toc-link" data-title="Authentication">Authentication</a>
+            <span data-href="#authentication" class="toc-h1 toc-link" data-title="Authentication">Authentication</span>
             
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-notification-template" class="toc-h1 toc-link" data-title="Notification template">Notification template</a>
+            <span data-href="#api-for-tax-calculator-notification-template" class="toc-h1 toc-link" data-title="Notification template">Notification template</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#return-registered-templates-" class="toc-h2 toc-link" data-title="">Return registered templates.</a>
+                    <span data-href="#return-registered-templates-" class="toc-h2 toc-link" data-title="">Return registered templates.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#register-new-template-" class="toc-h2 toc-link" data-title="">Register new template.</a>
+                    <span data-href="#register-new-template-" class="toc-h2 toc-link" data-title="">Register new template.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#get-template-" class="toc-h2 toc-link" data-title="">Get template.</a>
+                    <span data-href="#get-template-" class="toc-h2 toc-link" data-title="">Get template.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#update-template-" class="toc-h2 toc-link" data-title="">Update template.</a>
+                    <span data-href="#update-template-" class="toc-h2 toc-link" data-title="">Update template.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#delete-template-" class="toc-h2 toc-link" data-title="">Delete template.</a>
+                    <span data-href="#delete-template-" class="toc-h2 toc-link" data-title="">Delete template.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#send-notification-" class="toc-h2 toc-link" data-title="">Send notification.</a>
+                    <span data-href="#send-notification-" class="toc-h2 toc-link" data-title="">Send notification.</span>
                     
                   </li>
                 
@@ -67,32 +67,32 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-account-management" class="toc-h1 toc-link" data-title="Account Management">Account Management</a>
+            <span data-href="#api-for-tax-calculator-account-management" class="toc-h1 toc-link" data-title="Account Management">Account Management</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#create-new-account-" class="toc-h2 toc-link" data-title="">Create new account.</a>
+                    <span data-href="#create-new-account-" class="toc-h2 toc-link" data-title="">Create new account.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#get-account-information-" class="toc-h2 toc-link" data-title="">Get account information.</a>
+                    <span data-href="#get-account-information-" class="toc-h2 toc-link" data-title="">Get account information.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#update-an-account-" class="toc-h2 toc-link" data-title="">Update an account.</a>
+                    <span data-href="#update-an-account-" class="toc-h2 toc-link" data-title="">Update an account.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#make-an-account-inactive-" class="toc-h2 toc-link" data-title="">Make an account inactive.</a>
+                    <span data-href="#make-an-account-inactive-" class="toc-h2 toc-link" data-title="">Make an account inactive.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#get-a-link-for-resetting-account-password-" class="toc-h2 toc-link" data-title="">Get a link for resetting account password.</a>
+                    <span data-href="#get-a-link-for-resetting-account-password-" class="toc-h2 toc-link" data-title="">Get a link for resetting account password.</span>
                     
                   </li>
                 
@@ -101,22 +101,22 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-token-management" class="toc-h1 toc-link" data-title="Token Management">Token Management</a>
+            <span data-href="#api-for-tax-calculator-token-management" class="toc-h1 toc-link" data-title="Token Management">Token Management</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#get-active-tokens" class="toc-h2 toc-link" data-title="">Get active tokens</a>
+                    <span data-href="#get-active-tokens" class="toc-h2 toc-link" data-title="">Get active tokens</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#generate-token-" class="toc-h2 toc-link" data-title="">Generate token.</a>
+                    <span data-href="#generate-token-" class="toc-h2 toc-link" data-title="">Generate token.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#revoke-the-token-" class="toc-h2 toc-link" data-title="">Revoke the token.</a>
+                    <span data-href="#revoke-the-token-" class="toc-h2 toc-link" data-title="">Revoke the token.</span>
                     
                   </li>
                 
@@ -125,22 +125,22 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-contact-information" class="toc-h1 toc-link" data-title="Contact Information">Contact Information</a>
+            <span data-href="#api-for-tax-calculator-contact-information" class="toc-h1 toc-link" data-title="Contact Information">Contact Information</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#get-contact-information-" class="toc-h2 toc-link" data-title="">Get contact information.</a>
+                    <span data-href="#get-contact-information-" class="toc-h2 toc-link" data-title="">Get contact information.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#add-contact-information-" class="toc-h2 toc-link" data-title="">Add contact information.</a>
+                    <span data-href="#add-contact-information-" class="toc-h2 toc-link" data-title="">Add contact information.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#update-contact-information-" class="toc-h2 toc-link" data-title="">Update contact information.</a>
+                    <span data-href="#update-contact-information-" class="toc-h2 toc-link" data-title="">Update contact information.</span>
                     
                   </li>
                 
@@ -149,37 +149,37 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-location" class="toc-h1 toc-link" data-title="Location">Location</a>
+            <span data-href="#api-for-tax-calculator-location" class="toc-h1 toc-link" data-title="Location">Location</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#get-account-locations-" class="toc-h2 toc-link" data-title="">Get account locations.</a>
+                    <span data-href="#get-account-locations-" class="toc-h2 toc-link" data-title="">Get account locations.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#add-location-" class="toc-h2 toc-link" data-title="">Add location.</a>
+                    <span data-href="#add-location-" class="toc-h2 toc-link" data-title="">Add location.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#get-location-" class="toc-h2 toc-link" data-title="">Get location.</a>
+                    <span data-href="#get-location-" class="toc-h2 toc-link" data-title="">Get location.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#update-location-" class="toc-h2 toc-link" data-title="">Update location.</a>
+                    <span data-href="#update-location-" class="toc-h2 toc-link" data-title="">Update location.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#delete-location-" class="toc-h2 toc-link" data-title="">Delete location.</a>
+                    <span data-href="#delete-location-" class="toc-h2 toc-link" data-title="">Delete location.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#standardize-a-location-" class="toc-h2 toc-link" data-title="">Standardize a location.</a>
+                    <span data-href="#standardize-a-location-" class="toc-h2 toc-link" data-title="">Standardize a location.</span>
                     
                   </li>
                 
@@ -188,22 +188,22 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-business-info" class="toc-h1 toc-link" data-title="Business Info">Business Info</a>
+            <span data-href="#api-for-tax-calculator-business-info" class="toc-h1 toc-link" data-title="Business Info">Business Info</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#get-business-information-" class="toc-h2 toc-link" data-title="">Get business information.</a>
+                    <span data-href="#get-business-information-" class="toc-h2 toc-link" data-title="">Get business information.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#add-business-information-" class="toc-h2 toc-link" data-title="">Add business information.</a>
+                    <span data-href="#add-business-information-" class="toc-h2 toc-link" data-title="">Add business information.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#update-business-information-" class="toc-h2 toc-link" data-title="">Update business information.</a>
+                    <span data-href="#update-business-information-" class="toc-h2 toc-link" data-title="">Update business information.</span>
                     
                   </li>
                 
@@ -212,42 +212,42 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-product-catalog" class="toc-h1 toc-link" data-title="Product Catalog">Product Catalog</a>
+            <span data-href="#api-for-tax-calculator-product-catalog" class="toc-h1 toc-link" data-title="Product Catalog">Product Catalog</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#return-available-product-catalogs-" class="toc-h2 toc-link" data-title="">Return available product catalogs.</a>
+                    <span data-href="#return-available-product-catalogs-" class="toc-h2 toc-link" data-title="">Return available product catalogs.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#upload-and-validate-product-catalog-" class="toc-h2 toc-link" data-title="">Upload and validate product catalog.</a>
+                    <span data-href="#upload-and-validate-product-catalog-" class="toc-h2 toc-link" data-title="">Upload and validate product catalog.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#return-product-catalog" class="toc-h2 toc-link" data-title="">Return product catalog</a>
+                    <span data-href="#return-product-catalog" class="toc-h2 toc-link" data-title="">Return product catalog</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#remap-tax-categories-" class="toc-h2 toc-link" data-title="">Remap tax categories.</a>
+                    <span data-href="#remap-tax-categories-" class="toc-h2 toc-link" data-title="">Remap tax categories.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#get-product-catalog-processing-status" class="toc-h2 toc-link" data-title="">Get product catalog processing status</a>
+                    <span data-href="#get-product-catalog-processing-status" class="toc-h2 toc-link" data-title="">Get product catalog processing status</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#accept-product-catalog-categorization-" class="toc-h2 toc-link" data-title="">Accept product catalog categorization.</a>
+                    <span data-href="#accept-product-catalog-categorization-" class="toc-h2 toc-link" data-title="">Accept product catalog categorization.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#download-product-catalog-" class="toc-h2 toc-link" data-title="">Download product catalog.</a>
+                    <span data-href="#download-product-catalog-" class="toc-h2 toc-link" data-title="">Download product catalog.</span>
                     
                   </li>
                 
@@ -256,27 +256,27 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-product" class="toc-h1 toc-link" data-title="Product">Product</a>
+            <span data-href="#api-for-tax-calculator-product" class="toc-h1 toc-link" data-title="Product">Product</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#lookup-products-from-the-defined-catalog-" class="toc-h2 toc-link" data-title="">Lookup products from the defined catalog.</a>
+                    <span data-href="#lookup-products-from-the-defined-catalog-" class="toc-h2 toc-link" data-title="">Lookup products from the defined catalog.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#add-product-to-the-catalog-" class="toc-h2 toc-link" data-title="">Add product to the catalog.</a>
+                    <span data-href="#add-product-to-the-catalog-" class="toc-h2 toc-link" data-title="">Add product to the catalog.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#return-the-product-from-the-catalog-" class="toc-h2 toc-link" data-title="">Return the product from the catalog.</a>
+                    <span data-href="#return-the-product-from-the-catalog-" class="toc-h2 toc-link" data-title="">Return the product from the catalog.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#update-the-product-" class="toc-h2 toc-link" data-title="">Update the product.</a>
+                    <span data-href="#update-the-product-" class="toc-h2 toc-link" data-title="">Update the product.</span>
                     
                   </li>
                 
@@ -285,12 +285,12 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-logging" class="toc-h1 toc-link" data-title="Logging">Logging</a>
+            <span data-href="#api-for-tax-calculator-logging" class="toc-h1 toc-link" data-title="Logging">Logging</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#return-tax-calculation-call-logs-" class="toc-h2 toc-link" data-title="">Return tax calculation call logs.</a>
+                    <span data-href="#return-tax-calculation-call-logs-" class="toc-h2 toc-link" data-title="">Return tax calculation call logs.</span>
                     
                   </li>
                 
@@ -299,22 +299,22 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-transaction-journal" class="toc-h1 toc-link" data-title="Transaction Journal">Transaction Journal</a>
+            <span data-href="#api-for-tax-calculator-transaction-journal" class="toc-h1 toc-link" data-title="Transaction Journal">Transaction Journal</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#get-transactions-" class="toc-h2 toc-link" data-title="">Get transactions.</a>
+                    <span data-href="#get-transactions-" class="toc-h2 toc-link" data-title="">Get transactions.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#get-transaction-summary-" class="toc-h2 toc-link" data-title="">Get Transaction Summary.</a>
+                    <span data-href="#get-transaction-summary-" class="toc-h2 toc-link" data-title="">Get Transaction Summary.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#download-journal-in-cvs-" class="toc-h2 toc-link" data-title="">Download journal in CVS.</a>
+                    <span data-href="#download-journal-in-cvs-" class="toc-h2 toc-link" data-title="">Download journal in CVS.</span>
                     
                   </li>
                 
@@ -323,27 +323,27 @@ export default `
           </li>
         
           <li>
-            <a href="#api-for-tax-calculator-transaction-management" class="toc-h1 toc-link" data-title="Transaction Management">Transaction Management</a>
+            <span data-href="#api-for-tax-calculator-transaction-management" class="toc-h1 toc-link" data-title="Transaction Management">Transaction Management</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#consume-transaction-" class="toc-h2 toc-link" data-title="">Consume transaction.</a>
+                    <span data-href="#consume-transaction-" class="toc-h2 toc-link" data-title="">Consume transaction.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#get-transaction-" class="toc-h2 toc-link" data-title="">Get transaction.</a>
+                    <span data-href="#get-transaction-" class="toc-h2 toc-link" data-title="">Get transaction.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#delete-transaction-" class="toc-h2 toc-link" data-title="">Delete transaction.</a>
+                    <span data-href="#delete-transaction-" class="toc-h2 toc-link" data-title="">Delete transaction.</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#update-specified-transaction-" class="toc-h2 toc-link" data-title="">Update specified transaction.</a>
+                    <span data-href="#update-specified-transaction-" class="toc-h2 toc-link" data-title="">Update specified transaction.</span>
                     
                   </li>
                 
@@ -352,342 +352,342 @@ export default `
           </li>
         
           <li>
-            <a href="#schemas" class="toc-h1 toc-link" data-title="Schemas">Schemas</a>
+            <span data-href="#schemas" class="toc-h1 toc-link" data-title="Schemas">Schemas</span>
             
               <ul class="toc-list-h2">
                 
                   <li>
-                    <a href="#tocs_object" class="toc-h2 toc-link" data-title="">Object</a>
+                    <span data-href="#tocs_object" class="toc-h2 toc-link" data-title="">Object</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_link" class="toc-h2 toc-link" data-title="">Link</a>
+                    <span data-href="#tocs_link" class="toc-h2 toc-link" data-title="">Link</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_pagination" class="toc-h2 toc-link" data-title="">Pagination</a>
+                    <span data-href="#tocs_pagination" class="toc-h2 toc-link" data-title="">Pagination</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_fetchinfo" class="toc-h2 toc-link" data-title="">FetchInfo</a>
+                    <span data-href="#tocs_fetchinfo" class="toc-h2 toc-link" data-title="">FetchInfo</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_entity" class="toc-h2 toc-link" data-title="">Entity</a>
+                    <span data-href="#tocs_entity" class="toc-h2 toc-link" data-title="">Entity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_error" class="toc-h2 toc-link" data-title="">Error</a>
+                    <span data-href="#tocs_error" class="toc-h2 toc-link" data-title="">Error</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_errors" class="toc-h2 toc-link" data-title="">Errors</a>
+                    <span data-href="#tocs_errors" class="toc-h2 toc-link" data-title="">Errors</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_amount" class="toc-h2 toc-link" data-title="">Amount</a>
+                    <span data-href="#tocs_amount" class="toc-h2 toc-link" data-title="">Amount</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_date" class="toc-h2 toc-link" data-title="">Date</a>
+                    <span data-href="#tocs_date" class="toc-h2 toc-link" data-title="">Date</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_datetime" class="toc-h2 toc-link" data-title="">DateTime</a>
+                    <span data-href="#tocs_datetime" class="toc-h2 toc-link" data-title="">DateTime</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_email" class="toc-h2 toc-link" data-title="">Email</a>
+                    <span data-href="#tocs_email" class="toc-h2 toc-link" data-title="">Email</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_phone" class="toc-h2 toc-link" data-title="">Phone</a>
+                    <span data-href="#tocs_phone" class="toc-h2 toc-link" data-title="">Phone</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_period" class="toc-h2 toc-link" data-title="">Period</a>
+                    <span data-href="#tocs_period" class="toc-h2 toc-link" data-title="">Period</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_processingstatus" class="toc-h2 toc-link" data-title="">ProcessingStatus</a>
+                    <span data-href="#tocs_processingstatus" class="toc-h2 toc-link" data-title="">ProcessingStatus</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_message" class="toc-h2 toc-link" data-title="">Message</a>
+                    <span data-href="#tocs_message" class="toc-h2 toc-link" data-title="">Message</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_messageentity" class="toc-h2 toc-link" data-title="">MessageEntity</a>
+                    <span data-href="#tocs_messageentity" class="toc-h2 toc-link" data-title="">MessageEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_template" class="toc-h2 toc-link" data-title="">Template</a>
+                    <span data-href="#tocs_template" class="toc-h2 toc-link" data-title="">Template</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_templateentity" class="toc-h2 toc-link" data-title="">TemplateEntity</a>
+                    <span data-href="#tocs_templateentity" class="toc-h2 toc-link" data-title="">TemplateEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_templates" class="toc-h2 toc-link" data-title="">Templates</a>
+                    <span data-href="#tocs_templates" class="toc-h2 toc-link" data-title="">Templates</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_parameter" class="toc-h2 toc-link" data-title="">Parameter</a>
+                    <span data-href="#tocs_parameter" class="toc-h2 toc-link" data-title="">Parameter</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_locationtype" class="toc-h2 toc-link" data-title="">LocationType</a>
+                    <span data-href="#tocs_locationtype" class="toc-h2 toc-link" data-title="">LocationType</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_location" class="toc-h2 toc-link" data-title="">Location</a>
+                    <span data-href="#tocs_location" class="toc-h2 toc-link" data-title="">Location</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_locationentity" class="toc-h2 toc-link" data-title="">LocationEntity</a>
+                    <span data-href="#tocs_locationentity" class="toc-h2 toc-link" data-title="">LocationEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_locations" class="toc-h2 toc-link" data-title="">Locations</a>
+                    <span data-href="#tocs_locations" class="toc-h2 toc-link" data-title="">Locations</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_contact" class="toc-h2 toc-link" data-title="">Contact</a>
+                    <span data-href="#tocs_contact" class="toc-h2 toc-link" data-title="">Contact</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_contactentity" class="toc-h2 toc-link" data-title="">ContactEntity</a>
+                    <span data-href="#tocs_contactentity" class="toc-h2 toc-link" data-title="">ContactEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_contactinfo" class="toc-h2 toc-link" data-title="">ContactInfo</a>
+                    <span data-href="#tocs_contactinfo" class="toc-h2 toc-link" data-title="">ContactInfo</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_contactinfoentity" class="toc-h2 toc-link" data-title="">ContactInfoEntity</a>
+                    <span data-href="#tocs_contactinfoentity" class="toc-h2 toc-link" data-title="">ContactInfoEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_state" class="toc-h2 toc-link" data-title="">State</a>
+                    <span data-href="#tocs_state" class="toc-h2 toc-link" data-title="">State</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_account" class="toc-h2 toc-link" data-title="">Account</a>
+                    <span data-href="#tocs_account" class="toc-h2 toc-link" data-title="">Account</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_accountentity" class="toc-h2 toc-link" data-title="">AccountEntity</a>
+                    <span data-href="#tocs_accountentity" class="toc-h2 toc-link" data-title="">AccountEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_accountinfo" class="toc-h2 toc-link" data-title="">AccountInfo</a>
+                    <span data-href="#tocs_accountinfo" class="toc-h2 toc-link" data-title="">AccountInfo</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_tokentype" class="toc-h2 toc-link" data-title="">TokenType</a>
+                    <span data-href="#tocs_tokentype" class="toc-h2 toc-link" data-title="">TokenType</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_token" class="toc-h2 toc-link" data-title="">Token</a>
+                    <span data-href="#tocs_token" class="toc-h2 toc-link" data-title="">Token</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_tokens" class="toc-h2 toc-link" data-title="">Tokens</a>
+                    <span data-href="#tocs_tokens" class="toc-h2 toc-link" data-title="">Tokens</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_businessinfo" class="toc-h2 toc-link" data-title="">BusinessInfo</a>
+                    <span data-href="#tocs_businessinfo" class="toc-h2 toc-link" data-title="">BusinessInfo</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_businessinfoentity" class="toc-h2 toc-link" data-title="">BusinessInfoEntity</a>
+                    <span data-href="#tocs_businessinfoentity" class="toc-h2 toc-link" data-title="">BusinessInfoEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_taxcategory" class="toc-h2 toc-link" data-title="">TaxCategory</a>
+                    <span data-href="#tocs_taxcategory" class="toc-h2 toc-link" data-title="">TaxCategory</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_taxcategoryentity" class="toc-h2 toc-link" data-title="">TaxCategoryEntity</a>
+                    <span data-href="#tocs_taxcategoryentity" class="toc-h2 toc-link" data-title="">TaxCategoryEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_taxcategories" class="toc-h2 toc-link" data-title="">TaxCategories</a>
+                    <span data-href="#tocs_taxcategories" class="toc-h2 toc-link" data-title="">TaxCategories</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_productcatalog" class="toc-h2 toc-link" data-title="">ProductCatalog</a>
+                    <span data-href="#tocs_productcatalog" class="toc-h2 toc-link" data-title="">ProductCatalog</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_productcatalogentity" class="toc-h2 toc-link" data-title="">ProductCatalogEntity</a>
+                    <span data-href="#tocs_productcatalogentity" class="toc-h2 toc-link" data-title="">ProductCatalogEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_productcatalogs" class="toc-h2 toc-link" data-title="">ProductCatalogs</a>
+                    <span data-href="#tocs_productcatalogs" class="toc-h2 toc-link" data-title="">ProductCatalogs</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_category" class="toc-h2 toc-link" data-title="">Category</a>
+                    <span data-href="#tocs_category" class="toc-h2 toc-link" data-title="">Category</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_categories" class="toc-h2 toc-link" data-title="">Categories</a>
+                    <span data-href="#tocs_categories" class="toc-h2 toc-link" data-title="">Categories</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_mappingtype" class="toc-h2 toc-link" data-title="">MappingType</a>
+                    <span data-href="#tocs_mappingtype" class="toc-h2 toc-link" data-title="">MappingType</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_image" class="toc-h2 toc-link" data-title="">Image</a>
+                    <span data-href="#tocs_image" class="toc-h2 toc-link" data-title="">Image</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_product" class="toc-h2 toc-link" data-title="">Product</a>
+                    <span data-href="#tocs_product" class="toc-h2 toc-link" data-title="">Product</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_productentity" class="toc-h2 toc-link" data-title="">ProductEntity</a>
+                    <span data-href="#tocs_productentity" class="toc-h2 toc-link" data-title="">ProductEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_stockunit" class="toc-h2 toc-link" data-title="">StockUnit</a>
+                    <span data-href="#tocs_stockunit" class="toc-h2 toc-link" data-title="">StockUnit</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_stockunitentity" class="toc-h2 toc-link" data-title="">StockUnitEntity</a>
+                    <span data-href="#tocs_stockunitentity" class="toc-h2 toc-link" data-title="">StockUnitEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_products" class="toc-h2 toc-link" data-title="">Products</a>
+                    <span data-href="#tocs_products" class="toc-h2 toc-link" data-title="">Products</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_taxlevel" class="toc-h2 toc-link" data-title="">TaxLevel</a>
+                    <span data-href="#tocs_taxlevel" class="toc-h2 toc-link" data-title="">TaxLevel</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_taxrate" class="toc-h2 toc-link" data-title="">TaxRate</a>
+                    <span data-href="#tocs_taxrate" class="toc-h2 toc-link" data-title="">TaxRate</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_tax" class="toc-h2 toc-link" data-title="">Tax</a>
+                    <span data-href="#tocs_tax" class="toc-h2 toc-link" data-title="">Tax</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_transactiontype" class="toc-h2 toc-link" data-title="">TransactionType</a>
+                    <span data-href="#tocs_transactiontype" class="toc-h2 toc-link" data-title="">TransactionType</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_transactionstatus" class="toc-h2 toc-link" data-title="">TransactionStatus</a>
+                    <span data-href="#tocs_transactionstatus" class="toc-h2 toc-link" data-title="">TransactionStatus</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_transaction" class="toc-h2 toc-link" data-title="">Transaction</a>
+                    <span data-href="#tocs_transaction" class="toc-h2 toc-link" data-title="">Transaction</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_transactionentity" class="toc-h2 toc-link" data-title="">TransactionEntity</a>
+                    <span data-href="#tocs_transactionentity" class="toc-h2 toc-link" data-title="">TransactionEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_transactions" class="toc-h2 toc-link" data-title="">Transactions</a>
+                    <span data-href="#tocs_transactions" class="toc-h2 toc-link" data-title="">Transactions</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_orderitem" class="toc-h2 toc-link" data-title="">OrderItem</a>
+                    <span data-href="#tocs_orderitem" class="toc-h2 toc-link" data-title="">OrderItem</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_ordertotal" class="toc-h2 toc-link" data-title="">OrderTotal</a>
+                    <span data-href="#tocs_ordertotal" class="toc-h2 toc-link" data-title="">OrderTotal</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_order" class="toc-h2 toc-link" data-title="">Order</a>
+                    <span data-href="#tocs_order" class="toc-h2 toc-link" data-title="">Order</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_orderentity" class="toc-h2 toc-link" data-title="">OrderEntity</a>
+                    <span data-href="#tocs_orderentity" class="toc-h2 toc-link" data-title="">OrderEntity</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_transactionsummary" class="toc-h2 toc-link" data-title="">TransactionSummary</a>
+                    <span data-href="#tocs_transactionsummary" class="toc-h2 toc-link" data-title="">TransactionSummary</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_log" class="toc-h2 toc-link" data-title="">Log</a>
+                    <span data-href="#tocs_log" class="toc-h2 toc-link" data-title="">Log</span>
                     
                   </li>
                 
                   <li>
-                    <a href="#tocs_logs" class="toc-h2 toc-link" data-title="">Logs</a>
+                    <span data-href="#tocs_logs" class="toc-h2 toc-link" data-title="">Logs</span>
                     
                   </li>
                 
@@ -8603,57 +8603,117 @@ apiKeyAuth
 </tr>
 </tbody>
 </table>
-          <a id="tocSimage"></a>
-          <a id="tocsimage"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<h2 id="tocs_mappingtype">MappingType</h2>
+<p><a id="schemamappingtype"></a>
+<a id="schema_MappingType"></a>
+<a id="tocSmappingtype"></a>
+<a id="tocsmappingtype"></a></p>
+<pre class="highlight tab tab-json"><code><span class="hljs-string">"autoMapped"</span>
+
+</code></pre>
+<p>Product Mapping Type</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product Mapping Type</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>An enumeration that represents Product Mapping Types<br /></td>
+</tr>
+</tbody>
+</table>
+<h4 id="enumerated-values">Enumerated Values</h4>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product Mapping Type</td>
+<td>autoMapped</td>
+</tr>
+<tr>
+<td>Product Mapping Type</td>
+<td>new</td>
+</tr>
+<tr>
+<td>Product Mapping Type</td>
+<td>udated</td>
+</tr>
+<tr>
+<td>Product Mapping Type</td>
+<td>remapped</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_image">Image</h2>
+<p><a id="schemaimage"></a>
+<a id="schema_Image"></a>
+<a id="tocSimage"></a>
+<a id="tocsimage"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https//stripe.com/images/img.png"</span>,
   <span class="hljs-attr">"width"</span>: <span class="hljs-number">32</span>,
   <span class="hljs-attr">"height"</span>: <span class="hljs-number">32</span>
 }
 
 </code></pre>
-          <p>Image</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>url</td>
-                  <td><a href="#schemalink">Link</a></td>
-                  <td>true</td>
-                  <td>none</td>
-                  <td>Absolute URI.</td>
-              </tr>
-              <tr>
-                  <td>width</td>
-                  <td>integer</td>
-                  <td>true</td>
-                  <td>none</td>
-                  <td>Image width.</td>
-              </tr>
-              <tr>
-                  <td>height</td>
-                  <td>integer</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Image height.</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_product">Product</h2>
-          <p><a id="schemaproduct"></a>
-              <a id="schema_Product"></a>
-              <a id="tocSproduct"></a>
-              <a id="tocsproduct"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Image</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>url</td>
+<td><a href="#schemalink">Link</a></td>
+<td>true</td>
+<td>none</td>
+<td>Absolute URI.</td>
+</tr>
+<tr>
+<td>width</td>
+<td>integer</td>
+<td>true</td>
+<td>none</td>
+<td>Image width.</td>
+</tr>
+<tr>
+<td>height</td>
+<td>integer</td>
+<td>false</td>
+<td>none</td>
+<td>Image height.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_product">Product</h2>
+<p><a id="schemaproduct"></a>
+<a id="schema_Product"></a>
+<a id="tocSproduct"></a>
+<a id="tocsproduct"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"masterId"</span>: <span class="hljs-string">"string"</span>,
   <span class="hljs-attr">"name"</span>: <span class="hljs-string">"string"</span>,
   <span class="hljs-attr">"image"</span>: {
@@ -8706,111 +8766,111 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Product</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>masterId</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Product master id.<br />Product identifier in exernal system.</td>
-              </tr>
-              <tr>
-                  <td>name</td>
-                  <td>string</td>
-                  <td>true</td>
-                  <td>none</td>
-                  <td>Product name.</td>
-              </tr>
-              <tr>
-                  <td>image</td>
-                  <td><a href="#schemaimage">Image</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>shortDescription</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Short product description.</td>
-              </tr>
-              <tr>
-                  <td>description</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Product description.</td>
-              </tr>
-              <tr>
-                  <td>sku</td>
-                  <td>[<a href="#schemastockunit">StockUnit</a>]</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>inActive</td>
-                  <td>boolean</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>The flag indicates that the product<br />is available now.</td>
-              </tr>
-              <tr>
-                  <td>timestamp</td>
-                  <td><a href="#schemadatetime">DateTime</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Date-time in format [ISO-8601], YYYY-MM-DDThh:mm:ssTZD</td>
-              </tr>
-              <tr>
-                  <td>mappingType</td>
-                  <td><a href="#schemamappingtype">MappingType</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>An enumeration that represents Product Mapping Types<br /></td>
-              </tr>
-              <tr>
-                  <td>effectivePeriod</td>
-                  <td><a href="#schemaperiod">Period</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>taxCategories</td>
-                  <td><a href="#schemataxcategories">TaxCategories</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>categories</td>
-                  <td><a href="#schemacategories">Categories</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_productentity">ProductEntity</h2>
-          <p><a id="schemaproductentity"></a>
-              <a id="schema_ProductEntity"></a>
-              <a id="tocSproductentity"></a>
-              <a id="tocsproductentity"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Product</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>masterId</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Product master id.<br />Product identifier in exernal system.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>true</td>
+<td>none</td>
+<td>Product name.</td>
+</tr>
+<tr>
+<td>image</td>
+<td><a href="#schemaimage">Image</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>shortDescription</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Short product description.</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Product description.</td>
+</tr>
+<tr>
+<td>sku</td>
+<td>[<a href="#schemastockunit">StockUnit</a>]</td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>inActive</td>
+<td>boolean</td>
+<td>false</td>
+<td>none</td>
+<td>The flag indicates that the product<br />is available now.</td>
+</tr>
+<tr>
+<td>timestamp</td>
+<td><a href="#schemadatetime">DateTime</a></td>
+<td>false</td>
+<td>none</td>
+<td>Date-time in format [ISO-8601], YYYY-MM-DDThh:mm:ssTZD</td>
+</tr>
+<tr>
+<td>mappingType</td>
+<td><a href="#schemamappingtype">MappingType</a></td>
+<td>false</td>
+<td>none</td>
+<td>An enumeration that represents Product Mapping Types<br /></td>
+</tr>
+<tr>
+<td>effectivePeriod</td>
+<td><a href="#schemaperiod">Period</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>taxCategories</td>
+<td><a href="#schemataxcategories">TaxCategories</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>categories</td>
+<td><a href="#schemacategories">Categories</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_productentity">ProductEntity</h2>
+<p><a id="schemaproductentity"></a>
+<a id="schema_ProductEntity"></a>
+<a id="tocSproductentity"></a>
+<a id="tocsproductentity"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"sku"</span>: [
     {
       <span class="hljs-attr">"id"</span>: <span class="hljs-number">566</span>,
@@ -8868,90 +8928,90 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>ProductEntity</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>sku</td>
-                  <td>[<a href="#schemastockunitentity">StockUnitEntity</a>]</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>taxCategories</td>
-                  <td><a href="#schemataxcategories">TaxCategories</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>categories</td>
-                  <td><a href="#schemacategories">Categories</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <p>allOf</p>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td><em>anonymous</em></td>
-                  <td><a href="#schemaentity">Entity</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <p>and</p>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td><em>anonymous</em></td>
-                  <td><a href="#schemaproduct">Product</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_stockunit">StockUnit</h2>
-          <p><a id="schemastockunit"></a>
-              <a id="schema_StockUnit"></a>
-              <a id="tocSstockunit"></a>
-              <a id="tocsstockunit"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>ProductEntity</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sku</td>
+<td>[<a href="#schemastockunitentity">StockUnitEntity</a>]</td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>taxCategories</td>
+<td><a href="#schemataxcategories">TaxCategories</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>categories</td>
+<td><a href="#schemacategories">Categories</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>allOf</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>anonymous</em></td>
+<td><a href="#schemaentity">Entity</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>and</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>anonymous</em></td>
+<td><a href="#schemaproduct">Product</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_stockunit">StockUnit</h2>
+<p><a id="schemastockunit"></a>
+<a id="schema_StockUnit"></a>
+<a id="tocSstockunit"></a>
+<a id="tocsstockunit"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Video Streaming Service"</span>,
   <span class="hljs-attr">"description"</span>: <span class="hljs-string">"Video streaming service"</span>,
   <span class="hljs-attr">"shortDescription"</span>: <span class="hljs-string">"Video streaming service"</span>,
@@ -8972,69 +9032,69 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Stock Keeping Unit</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>sku</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Stock Keeping Unit.</td>
-              </tr>
-              <tr>
-                  <td>name</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Name.</td>
-              </tr>
-              <tr>
-                  <td>shortDescription</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Short description.</td>
-              </tr>
-              <tr>
-                  <td>description</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Description.</td>
-              </tr>
-              <tr>
-                  <td>upc</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>UPC code.</td>
-              </tr>
-              <tr>
-                  <td>taxCategories</td>
-                  <td><a href="#schemataxcategories">TaxCategories</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_stockunitentity">StockUnitEntity</h2>
-          <p><a id="schemastockunitentity"></a>
-              <a id="schema_StockUnitEntity"></a>
-              <a id="tocSstockunitentity"></a>
-              <a id="tocsstockunitentity"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Stock Keeping Unit</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sku</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Stock Keeping Unit.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Name.</td>
+</tr>
+<tr>
+<td>shortDescription</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Short description.</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Description.</td>
+</tr>
+<tr>
+<td>upc</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>UPC code.</td>
+</tr>
+<tr>
+<td>taxCategories</td>
+<td><a href="#schemataxcategories">TaxCategories</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_stockunitentity">StockUnitEntity</h2>
+<p><a id="schemastockunitentity"></a>
+<a id="schema_StockUnitEntity"></a>
+<a id="tocSstockunitentity"></a>
+<a id="tocsstockunitentity"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"id"</span>: <span class="hljs-number">566</span>,
   <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Video Streaming Service"</span>,
   <span class="hljs-attr">"description"</span>: <span class="hljs-string">"Video streaming service"</span>,
@@ -9058,76 +9118,76 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Stock Keeping Unit Entity</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Stock Keeping Unit Entity</td>
-                  <td>any</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <p>allOf</p>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td><em>anonymous</em></td>
-                  <td><a href="#schemaentity">Entity</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <p>and</p>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td><em>anonymous</em></td>
-                  <td><a href="#schemastockunit">StockUnit</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_products">Products</h2>
-          <p><a id="schemaproducts"></a>
-              <a id="schema_Products"></a>
-              <a id="tocSproducts"></a>
-              <a id="tocsproducts"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Stock Keeping Unit Entity</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stock Keeping Unit Entity</td>
+<td>any</td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>allOf</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>anonymous</em></td>
+<td><a href="#schemaentity">Entity</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>and</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>anonymous</em></td>
+<td><a href="#schemastockunit">StockUnit</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_products">Products</h2>
+<p><a id="schemaproducts"></a>
+<a id="schema_Products"></a>
+<a id="tocSproducts"></a>
+<a id="tocsproducts"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"pagination"</span>: {
     <span class="hljs-attr">"self"</span>: <span class="hljs-string">"http://vertex.com/api/v1.2/logs?page=30&amp;size=10"</span>,
     <span class="hljs-attr">"prev"</span>: <span class="hljs-string">"http://vertex.com/api/v1.2/logs?page=29&amp;size=10"</span>,
@@ -9202,101 +9262,101 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Product collection</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>pagination</td>
-                  <td><a href="#schemapagination">Pagination</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Hypermedia approach for pagination, contains links<br />for current, previous and next pages.</td>
-              </tr>
-              <tr>
-                  <td>fetchInfo</td>
-                  <td><a href="#schemafetchinfo">FetchInfo</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Data fetch info.<br />Used for implementing data pagination.</td>
-              </tr>
-              <tr>
-                  <td>products</td>
-                  <td>[<a href="#schemaproductentity">ProductEntity</a>]</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_taxlevel">TaxLevel</h2>
-          <p><a id="schemataxlevel"></a>
-              <a id="schema_TaxLevel"></a>
-              <a id="tocStaxlevel"></a>
-              <a id="tocstaxlevel"></a></p>
-          <pre class="highlight tab tab-json"><code><span class="hljs-string">"state"</span>
+<p>Product collection</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pagination</td>
+<td><a href="#schemapagination">Pagination</a></td>
+<td>false</td>
+<td>none</td>
+<td>Hypermedia approach for pagination, contains links<br />for current, previous and next pages.</td>
+</tr>
+<tr>
+<td>fetchInfo</td>
+<td><a href="#schemafetchinfo">FetchInfo</a></td>
+<td>false</td>
+<td>none</td>
+<td>Data fetch info.<br />Used for implementing data pagination.</td>
+</tr>
+<tr>
+<td>products</td>
+<td>[<a href="#schemaproductentity">ProductEntity</a>]</td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_taxlevel">TaxLevel</h2>
+<p><a id="schemataxlevel"></a>
+<a id="schema_TaxLevel"></a>
+<a id="tocStaxlevel"></a>
+<a id="tocstaxlevel"></a></p>
+<pre class="highlight tab tab-json"><code><span class="hljs-string">"state"</span>
 
 </code></pre>
-          <p>Tax level</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Tax level</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>An enumeration that represents available Tax levels<br /></td>
-              </tr>
-              </tbody>
-          </table>
-          <h4 id="enumerated-values">Enumerated Values</h4>
-          <table>
-              <thead>
-              <tr>
-                  <th>Property</th>
-                  <th>Value</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Tax level</td>
-                  <td>state</td>
-              </tr>
-              <tr>
-                  <td>Tax level</td>
-                  <td>country</td>
-              </tr>
-              <tr>
-                  <td>Tax level</td>
-                  <td>jurisdiction</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_taxrate">TaxRate</h2>
-          <p><a id="schemataxrate"></a>
-              <a id="schema_TaxRate"></a>
-              <a id="tocStaxrate"></a>
-              <a id="tocstaxrate"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Tax level</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tax level</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>An enumeration that represents available Tax levels<br /></td>
+</tr>
+</tbody>
+</table>
+<h4 id="enumerated-values">Enumerated Values</h4>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tax level</td>
+<td>state</td>
+</tr>
+<tr>
+<td>Tax level</td>
+<td>country</td>
+</tr>
+<tr>
+<td>Tax level</td>
+<td>jurisdiction</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_taxrate">TaxRate</h2>
+<p><a id="schemataxrate"></a>
+<a id="schema_TaxRate"></a>
+<a id="tocStaxrate"></a>
+<a id="tocstaxrate"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"id"</span>: <span class="hljs-number">54</span>,
   <span class="hljs-attr">"description"</span>: <span class="hljs-string">"VAT"</span>,
   <span class="hljs-attr">"name"</span>: <span class="hljs-string">"VAT"</span>,
@@ -9309,69 +9369,69 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Tax rate</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Tax rate</td>
-                  <td><a href="#schemaentity">Entity</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>name</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Tax name.</td>
-              </tr>
-              <tr>
-                  <td>description</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Tax description.</td>
-              </tr>
-              <tr>
-                  <td>taxLevel</td>
-                  <td><a href="#schemataxlevel">TaxLevel</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>An enumeration that represents available Tax levels<br /></td>
-              </tr>
-              <tr>
-                  <td>rules</td>
-                  <td>[string]</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>percentage</td>
-                  <td>integer</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Tax percentage.</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_tax">Tax</h2>
-          <p><a id="schematax"></a>
-              <a id="schema_Tax"></a>
-              <a id="tocStax"></a>
-              <a id="tocstax"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Tax rate</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tax rate</td>
+<td><a href="#schemaentity">Entity</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Tax name.</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Tax description.</td>
+</tr>
+<tr>
+<td>taxLevel</td>
+<td><a href="#schemataxlevel">TaxLevel</a></td>
+<td>false</td>
+<td>none</td>
+<td>An enumeration that represents available Tax levels<br /></td>
+</tr>
+<tr>
+<td>rules</td>
+<td>[string]</td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>percentage</td>
+<td>integer</td>
+<td>false</td>
+<td>none</td>
+<td>Tax percentage.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_tax">Tax</h2>
+<p><a id="schematax"></a>
+<a id="schema_Tax"></a>
+<a id="tocStax"></a>
+<a id="tocstax"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"rate"</span>: {
     <span class="hljs-attr">"id"</span>: <span class="hljs-number">54</span>,
     <span class="hljs-attr">"description"</span>: <span class="hljs-string">"VAT"</span>,
@@ -9387,151 +9447,151 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Tax</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>rate</td>
-                  <td><a href="#schemataxrate">TaxRate</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>amount</td>
-                  <td><a href="#schemaamount">Amount</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_transactiontype">TransactionType</h2>
-          <p><a id="schematransactiontype"></a>
-              <a id="schema_TransactionType"></a>
-              <a id="tocStransactiontype"></a>
-              <a id="tocstransactiontype"></a></p>
-          <pre class="highlight tab tab-json"><code><span class="hljs-string">"new"</span>
+<p>Tax</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rate</td>
+<td><a href="#schemataxrate">TaxRate</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>amount</td>
+<td><a href="#schemaamount">Amount</a></td>
+<td>false</td>
+<td>none</td>
+<td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_transactiontype">TransactionType</h2>
+<p><a id="schematransactiontype"></a>
+<a id="schema_TransactionType"></a>
+<a id="tocStransactiontype"></a>
+<a id="tocstransactiontype"></a></p>
+<pre class="highlight tab tab-json"><code><span class="hljs-string">"new"</span>
 
 </code></pre>
-          <p>Transaction Types</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Transaction Types</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Enumeration that represnts supportable Transaction Types <br /></td>
-              </tr>
-              </tbody>
-          </table>
-          <h4 id="enumerated-values">Enumerated Values</h4>
-          <table>
-              <thead>
-              <tr>
-                  <th>Property</th>
-                  <th>Value</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Transaction Types</td>
-                  <td>new</td>
-              </tr>
-              <tr>
-                  <td>Transaction Types</td>
-                  <td>complete</td>
-              </tr>
-              <tr>
-                  <td>Transaction Types</td>
-                  <td>return</td>
-              </tr>
-              <tr>
-                  <td>Transaction Types</td>
-                  <td>cancel</td>
-              </tr>
-              <tr>
-                  <td>Transaction Types</td>
-                  <td>adjustment</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_transactionstatus">TransactionStatus</h2>
-          <p><a id="schematransactionstatus"></a>
-              <a id="schema_TransactionStatus"></a>
-              <a id="tocStransactionstatus"></a>
-              <a id="tocstransactionstatus"></a></p>
-          <pre class="highlight tab tab-json"><code><span class="hljs-string">"preview"</span>
+<p>Transaction Types</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transaction Types</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Enumeration that represnts supportable Transaction Types <br /></td>
+</tr>
+</tbody>
+</table>
+<h4 id="enumerated-values">Enumerated Values</h4>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transaction Types</td>
+<td>new</td>
+</tr>
+<tr>
+<td>Transaction Types</td>
+<td>complete</td>
+</tr>
+<tr>
+<td>Transaction Types</td>
+<td>return</td>
+</tr>
+<tr>
+<td>Transaction Types</td>
+<td>cancel</td>
+</tr>
+<tr>
+<td>Transaction Types</td>
+<td>adjustment</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_transactionstatus">TransactionStatus</h2>
+<p><a id="schematransactionstatus"></a>
+<a id="schema_TransactionStatus"></a>
+<a id="tocStransactionstatus"></a>
+<a id="tocstransactionstatus"></a></p>
+<pre class="highlight tab tab-json"><code><span class="hljs-string">"preview"</span>
 
 </code></pre>
-          <p>Transaction Status</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Transaction Status</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Enumeration that represnts available Transaction Statuses <br /></td>
-              </tr>
-              </tbody>
-          </table>
-          <h4 id="enumerated-values">Enumerated Values</h4>
-          <table>
-              <thead>
-              <tr>
-                  <th>Property</th>
-                  <th>Value</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Transaction Status</td>
-                  <td>preview</td>
-              </tr>
-              <tr>
-                  <td>Transaction Status</td>
-                  <td>order</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_transaction">Transaction</h2>
-          <p><a id="schematransaction"></a>
-              <a id="schema_Transaction"></a>
-              <a id="tocStransaction"></a>
-              <a id="tocstransaction"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Transaction Status</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transaction Status</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Enumeration that represnts available Transaction Statuses <br /></td>
+</tr>
+</tbody>
+</table>
+<h4 id="enumerated-values">Enumerated Values</h4>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transaction Status</td>
+<td>preview</td>
+</tr>
+<tr>
+<td>Transaction Status</td>
+<td>order</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_transaction">Transaction</h2>
+<p><a id="schematransaction"></a>
+<a id="schema_Transaction"></a>
+<a id="tocStransaction"></a>
+<a id="tocstransaction"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"masterId"</span>: <span class="hljs-number">0</span>,
   <span class="hljs-attr">"type"</span>: <span class="hljs-string">"new"</span>,
   <span class="hljs-attr">"status"</span>: <span class="hljs-string">"preview"</span>,
@@ -9577,62 +9637,62 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Transaction</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Transaction</td>
-                  <td><a href="#schemaentity">Entity</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>masterId</td>
-                  <td>integer</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Transaction unique identifier in master system.</td>
-              </tr>
-              <tr>
-                  <td>type</td>
-                  <td><a href="#schematransactiontype">TransactionType</a></td>
-                  <td>true</td>
-                  <td>none</td>
-                  <td>Enumeration that represnts supportable Transaction Types <br /></td>
-              </tr>
-              <tr>
-                  <td>status</td>
-                  <td><a href="#schematransactionstatus">TransactionStatus</a></td>
-                  <td>true</td>
-                  <td>none</td>
-                  <td>Enumeration that represnts available Transaction Statuses <br /></td>
-              </tr>
-              <tr>
-                  <td>order</td>
-                  <td><a href="#schemaorder">Order</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_transactionentity">TransactionEntity</h2>
-          <p><a id="schematransactionentity"></a>
-              <a id="schema_TransactionEntity"></a>
-              <a id="tocStransactionentity"></a>
-              <a id="tocstransactionentity"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Transaction</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transaction</td>
+<td><a href="#schemaentity">Entity</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>masterId</td>
+<td>integer</td>
+<td>false</td>
+<td>none</td>
+<td>Transaction unique identifier in master system.</td>
+</tr>
+<tr>
+<td>type</td>
+<td><a href="#schematransactiontype">TransactionType</a></td>
+<td>true</td>
+<td>none</td>
+<td>Enumeration that represnts supportable Transaction Types <br /></td>
+</tr>
+<tr>
+<td>status</td>
+<td><a href="#schematransactionstatus">TransactionStatus</a></td>
+<td>true</td>
+<td>none</td>
+<td>Enumeration that represnts available Transaction Statuses <br /></td>
+</tr>
+<tr>
+<td>order</td>
+<td><a href="#schemaorder">Order</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_transactionentity">TransactionEntity</h2>
+<p><a id="schematransactionentity"></a>
+<a id="schema_TransactionEntity"></a>
+<a id="tocStransactionentity"></a>
+<a id="tocstransactionentity"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"id"</span>: <span class="hljs-number">0</span>,
   <span class="hljs-attr">"salePoint"</span>: <span class="hljs-string">"string"</span>,
   <span class="hljs-attr">"masterId"</span>: <span class="hljs-number">0</span>,
@@ -9678,56 +9738,56 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Transaction entity</p>
-          <h3 id="properties">Properties</h3>
-          <p>allOf</p>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td><em>anonymous</em></td>
-                  <td><a href="#schemaentity">Entity</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <p>and</p>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td><em>anonymous</em></td>
-                  <td><a href="#schematransaction">Transaction</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_transactions">Transactions</h2>
-          <p><a id="schematransactions"></a>
-              <a id="schema_Transactions"></a>
-              <a id="tocStransactions"></a>
-              <a id="tocstransactions"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Transaction entity</p>
+<h3 id="properties">Properties</h3>
+<p>allOf</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>anonymous</em></td>
+<td><a href="#schemaentity">Entity</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>and</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>anonymous</em></td>
+<td><a href="#schematransaction">Transaction</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_transactions">Transactions</h2>
+<p><a id="schematransactions"></a>
+<a id="schema_Transactions"></a>
+<a id="tocStransactions"></a>
+<a id="tocstransactions"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"pagination"</span>: {
     <span class="hljs-attr">"self"</span>: <span class="hljs-string">"http://vertex.com/api/v1.2/logs?page=30&amp;size=10"</span>,
     <span class="hljs-attr">"prev"</span>: <span class="hljs-string">"http://vertex.com/api/v1.2/logs?page=29&amp;size=10"</span>,
@@ -9790,48 +9850,48 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Transaction collection</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>pagination</td>
-                  <td><a href="#schemapagination">Pagination</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Hypermedia approach for pagination, contains links<br />for current, previous and next pages.</td>
-              </tr>
-              <tr>
-                  <td>fetchInfo</td>
-                  <td><a href="#schemafetchinfo">FetchInfo</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Data fetch info.<br />Used for implementing data pagination.</td>
-              </tr>
-              <tr>
-                  <td>transactions</td>
-                  <td>[<a href="#schematransactionentity">TransactionEntity</a>]</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_orderitem">OrderItem</h2>
-          <p><a id="schemaorderitem"></a>
-              <a id="schema_OrderItem"></a>
-              <a id="tocSorderitem"></a>
-              <a id="tocsorderitem"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Transaction collection</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pagination</td>
+<td><a href="#schemapagination">Pagination</a></td>
+<td>false</td>
+<td>none</td>
+<td>Hypermedia approach for pagination, contains links<br />for current, previous and next pages.</td>
+</tr>
+<tr>
+<td>fetchInfo</td>
+<td><a href="#schemafetchinfo">FetchInfo</a></td>
+<td>false</td>
+<td>none</td>
+<td>Data fetch info.<br />Used for implementing data pagination.</td>
+</tr>
+<tr>
+<td>transactions</td>
+<td>[<a href="#schematransactionentity">TransactionEntity</a>]</td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_orderitem">OrderItem</h2>
+<p><a id="schemaorderitem"></a>
+<a id="schema_OrderItem"></a>
+<a id="tocSorderitem"></a>
+<a id="tocsorderitem"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"id"</span>: <span class="hljs-number">12</span>,
   <span class="hljs-attr">"productId"</span>: <span class="hljs-number">23</span>,
   <span class="hljs-attr">"masterId"</span>: <span class="hljs-number">643</span>,
@@ -9841,76 +9901,76 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Order Item</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Order Item</td>
-                  <td><a href="#schemaentity">Entity</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>masterId</td>
-                  <td>integer</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>An item unique identifier in external system.</td>
-              </tr>
-              <tr>
-                  <td>productId</td>
-                  <td>integer</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Product id.</td>
-              </tr>
-              <tr>
-                  <td>name</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Item name.</td>
-              </tr>
-              <tr>
-                  <td>count</td>
-                  <td>integer</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Item count.</td>
-              </tr>
-              <tr>
-                  <td>sku</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Stock Keeping Unit.</td>
-              </tr>
-              <tr>
-                  <td>price</td>
-                  <td><a href="#schemaamount">Amount</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_ordertotal">OrderTotal</h2>
-          <p><a id="schemaordertotal"></a>
-              <a id="schema_OrderTotal"></a>
-              <a id="tocSordertotal"></a>
-              <a id="tocsordertotal"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Order Item</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Order Item</td>
+<td><a href="#schemaentity">Entity</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>masterId</td>
+<td>integer</td>
+<td>false</td>
+<td>none</td>
+<td>An item unique identifier in external system.</td>
+</tr>
+<tr>
+<td>productId</td>
+<td>integer</td>
+<td>false</td>
+<td>none</td>
+<td>Product id.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Item name.</td>
+</tr>
+<tr>
+<td>count</td>
+<td>integer</td>
+<td>false</td>
+<td>none</td>
+<td>Item count.</td>
+</tr>
+<tr>
+<td>sku</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Stock Keeping Unit.</td>
+</tr>
+<tr>
+<td>price</td>
+<td><a href="#schemaamount">Amount</a></td>
+<td>false</td>
+<td>none</td>
+<td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_ordertotal">OrderTotal</h2>
+<p><a id="schemaordertotal"></a>
+<a id="schema_OrderTotal"></a>
+<a id="tocSordertotal"></a>
+<a id="tocsordertotal"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"total"</span>: <span class="hljs-number">153.55</span>,
   <span class="hljs-attr">"subtotal"</span>: <span class="hljs-number">148.35</span>,
   <span class="hljs-attr">"totalTax"</span>: <span class="hljs-number">7.2</span>,
@@ -9933,55 +9993,55 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Order Total</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>total</td>
-                  <td><a href="#schemaamount">Amount</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
-              </tr>
-              <tr>
-                  <td>subTotal</td>
-                  <td><a href="#schemaamount">Amount</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
-              </tr>
-              <tr>
-                  <td>totalTax</td>
-                  <td><a href="#schemaamount">Amount</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
-              </tr>
-              <tr>
-                  <td>taxDetails</td>
-                  <td>[<a href="#schematax">Tax</a>]</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_order">Order</h2>
-          <p><a id="schemaorder"></a>
-              <a id="schema_Order"></a>
-              <a id="tocSorder"></a>
-              <a id="tocsorder"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Order Total</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>total</td>
+<td><a href="#schemaamount">Amount</a></td>
+<td>false</td>
+<td>none</td>
+<td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
+</tr>
+<tr>
+<td>subTotal</td>
+<td><a href="#schemaamount">Amount</a></td>
+<td>false</td>
+<td>none</td>
+<td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
+</tr>
+<tr>
+<td>totalTax</td>
+<td><a href="#schemaamount">Amount</a></td>
+<td>false</td>
+<td>none</td>
+<td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
+</tr>
+<tr>
+<td>taxDetails</td>
+<td>[<a href="#schematax">Tax</a>]</td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_order">Order</h2>
+<p><a id="schemaorder"></a>
+<a id="schema_Order"></a>
+<a id="tocSorder"></a>
+<a id="tocsorder"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"masterId"</span>: <span class="hljs-number">0</span>,
   <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">"2010-10-11T21:44:22Z2"</span>,
   <span class="hljs-attr">"items"</span>: [
@@ -10020,62 +10080,62 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Order</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Order</td>
-                  <td><a href="#schemaentity">Entity</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>masterId</td>
-                  <td>integer</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>An order unique identifier in external system.</td>
-              </tr>
-              <tr>
-                  <td>timestamp</td>
-                  <td><a href="#schemadatetime">DateTime</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Date-time in format [ISO-8601], YYYY-MM-DDThh:mm:ssTZD</td>
-              </tr>
-              <tr>
-                  <td>items</td>
-                  <td>[<a href="#schemaorderitem">OrderItem</a>]</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              <tr>
-                  <td>total</td>
-                  <td><a href="#schemaordertotal">OrderTotal</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Order total.</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_orderentity">OrderEntity</h2>
-          <p><a id="schemaorderentity"></a>
-              <a id="schema_OrderEntity"></a>
-              <a id="tocSorderentity"></a>
-              <a id="tocsorderentity"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Order</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Order</td>
+<td><a href="#schemaentity">Entity</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>masterId</td>
+<td>integer</td>
+<td>false</td>
+<td>none</td>
+<td>An order unique identifier in external system.</td>
+</tr>
+<tr>
+<td>timestamp</td>
+<td><a href="#schemadatetime">DateTime</a></td>
+<td>false</td>
+<td>none</td>
+<td>Date-time in format [ISO-8601], YYYY-MM-DDThh:mm:ssTZD</td>
+</tr>
+<tr>
+<td>items</td>
+<td>[<a href="#schemaorderitem">OrderItem</a>]</td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>total</td>
+<td><a href="#schemaordertotal">OrderTotal</a></td>
+<td>false</td>
+<td>none</td>
+<td>Order total.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_orderentity">OrderEntity</h2>
+<p><a id="schemaorderentity"></a>
+<a id="schema_OrderEntity"></a>
+<a id="tocSorderentity"></a>
+<a id="tocsorderentity"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"id"</span>: <span class="hljs-number">0</span>,
   <span class="hljs-attr">"salePoint"</span>: <span class="hljs-string">"string"</span>,
   <span class="hljs-attr">"masterId"</span>: <span class="hljs-number">0</span>,
@@ -10114,124 +10174,124 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Order Entity</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>Order Entity</td>
-                  <td>any</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <p>allOf</p>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td><em>anonymous</em></td>
-                  <td><a href="#schemaentity">Entity</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <p>and</p>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td><em>anonymous</em></td>
-                  <td><a href="#schemaorder">Order</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>none</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_transactionsummary">TransactionSummary</h2>
-          <p><a id="schematransactionsummary"></a>
-              <a id="schema_TransactionSummary"></a>
-              <a id="tocStransactionsummary"></a>
-              <a id="tocstransactionsummary"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Order Entity</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Order Entity</td>
+<td>any</td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>allOf</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>anonymous</em></td>
+<td><a href="#schemaentity">Entity</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>and</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>anonymous</em></td>
+<td><a href="#schemaorder">Order</a></td>
+<td>false</td>
+<td>none</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_transactionsummary">TransactionSummary</h2>
+<p><a id="schematransactionsummary"></a>
+<a id="schema_TransactionSummary"></a>
+<a id="tocStransactionsummary"></a>
+<a id="tocstransactionsummary"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"countTrans"</span>: <span class="hljs-number">343</span>,
   <span class="hljs-attr">"totalSales"</span>: <span class="hljs-number">6565.9</span>,
   <span class="hljs-attr">"totalTax"</span>: <span class="hljs-number">34.3</span>
 }
 
 </code></pre>
-          <p>Transaction Summary</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>countTrans</td>
-                  <td>integer</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Number of the transactions.</td>
-              </tr>
-              <tr>
-                  <td>totalSales</td>
-                  <td><a href="#schemaamount">Amount</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
-              </tr>
-              <tr>
-                  <td>totalTax</td>
-                  <td><a href="#schemaamount">Amount</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_log">Log</h2>
-          <p><a id="schemalog"></a>
-              <a id="schema_Log"></a>
-              <a id="tocSlog"></a>
-              <a id="tocslog"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Transaction Summary</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>countTrans</td>
+<td>integer</td>
+<td>false</td>
+<td>none</td>
+<td>Number of the transactions.</td>
+</tr>
+<tr>
+<td>totalSales</td>
+<td><a href="#schemaamount">Amount</a></td>
+<td>false</td>
+<td>none</td>
+<td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
+</tr>
+<tr>
+<td>totalTax</td>
+<td><a href="#schemaamount">Amount</a></td>
+<td>false</td>
+<td>none</td>
+<td>Amont in format is [ISO 20022]. <br />The decimal separator is a dot. NNNN.NN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_log">Log</h2>
+<p><a id="schemalog"></a>
+<a id="schema_Log"></a>
+<a id="tocSlog"></a>
+<a id="tocslog"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"request"</span>: <span class="hljs-string">"http://192.168.0.17/api/v1.2/nextPage?size=12"</span>,
   <span class="hljs-attr">"response"</span>: <span class="hljs-string">"http://192.168.0.17/api/v1.2/nextPage?size=12"</span>,
   <span class="hljs-attr">"date"</span>: <span class="hljs-string">"2010-10-11"</span>,
@@ -10239,55 +10299,55 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Log</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>request</td>
-                  <td><a href="#schemalink">Link</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Absolute URI.</td>
-              </tr>
-              <tr>
-                  <td>response</td>
-                  <td><a href="#schemalink">Link</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Absolute URI.</td>
-              </tr>
-              <tr>
-                  <td>date</td>
-                  <td><a href="#schemadate">Date</a></td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Date in format [ISO-8601], YYYY-MM-DD</td>
-              </tr>
-              <tr>
-                  <td>salePoint</td>
-                  <td>string</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>Sale point identifier, email.</td>
-              </tr>
-              </tbody>
-          </table>
-          <h2 id="tocs_logs">Logs</h2>
-          <p><a id="schemalogs"></a>
-              <a id="schema_Logs"></a>
-              <a id="tocSlogs"></a>
-              <a id="tocslogs"></a></p>
-          <pre class="highlight tab tab-json"><code>{
+<p>Log</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>request</td>
+<td><a href="#schemalink">Link</a></td>
+<td>false</td>
+<td>none</td>
+<td>Absolute URI.</td>
+</tr>
+<tr>
+<td>response</td>
+<td><a href="#schemalink">Link</a></td>
+<td>false</td>
+<td>none</td>
+<td>Absolute URI.</td>
+</tr>
+<tr>
+<td>date</td>
+<td><a href="#schemadate">Date</a></td>
+<td>false</td>
+<td>none</td>
+<td>Date in format [ISO-8601], YYYY-MM-DD</td>
+</tr>
+<tr>
+<td>salePoint</td>
+<td>string</td>
+<td>false</td>
+<td>none</td>
+<td>Sale point identifier, email.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tocs_logs">Logs</h2>
+<p><a id="schemalogs"></a>
+<a id="schema_Logs"></a>
+<a id="tocSlogs"></a>
+<a id="tocslogs"></a></p>
+<pre class="highlight tab tab-json"><code>{
   <span class="hljs-attr">"logs"</span>: [
     {
       <span class="hljs-attr">"request"</span>: <span class="hljs-string">"http://192.168.0.17/api/v1.2/nextPage?size=12"</span>,
@@ -10299,171 +10359,111 @@ apiKeyAuth
 }
 
 </code></pre>
-          <p>Log collection</p>
-          <h3 id="properties">Properties</h3>
-          <table>
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Type</th>
-                  <th>Required</th>
-                  <th>Restrictions</th>
-                  <th>Description</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                  <td>logs</td>
-                  <td>[<a href="#schemalog">Log</a>]</td>
-                  <td>false</td>
-                  <td>none</td>
-                  <td>[Tax calculation log.<br />]</td>
-              </tr>
-              </tbody>
-          </table>
-          <!-- Renderer: Shins v2.4.1-0 -->
-          <!-- Generator: Widdershins v3.6.6 -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
-          <!-- backwards compatibility -->
+<p>Log collection</p>
+<h3 id="properties">Properties</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Restrictions</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>logs</td>
+<td>[<a href="#schemalog">Log</a>]</td>
+<td>false</td>
+<td>none</td>
+<td>[Tax calculation log.<br />]</td>
+</tr>
+</tbody>
+</table>
+<!-- Renderer: Shins v2.4.1-0 -->
+<!-- Generator: Widdershins v3.6.6 -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
+<!-- backwards compatibility -->
       </div>
-        <div class="dark-box">
-
-            <div class="lang-selector">
-
-
+      <div class="dark-box">
+        
+          <div class="lang-selector">
+            
+              
                 <a href="#" data-language-name="ruby">Ruby</a>
-
-
-
+              
+            
+              
                 <a href="#" data-language-name="python">Python</a>
-
-
-            </div>
-
-        </div>
-    </div>
-    <h2 id="tocs_mappingtype">MappingType</h2>
-    <p><a id="schemamappingtype"></a>
-    <a id="schema_MappingType"></a>
-    <a id="tocSmappingtype"></a>
-    <a id="tocsmappingtype"></a></p>
-    <pre class="highlight tab tab-json"><code><span class="hljs-string">"autoMapped"</span>
-
-    </code></pre>
-    <p>Product Mapping Type</p>
-    <h3 id="properties">Properties</h3>
-    <table>
-    <thead>
-    <tr>
-    <th>Name</th>
-    <th>Type</th>
-    <th>Required</th>
-    <th>Restrictions</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td>Product Mapping Type</td>
-    <td>string</td>
-    <td>false</td>
-    <td>none</td>
-    <td>An enumeration that represents Product Mapping Types<br /></td>
-    </tr>
-    </tbody>
-    </table>
-    <h4 id="enumerated-values">Enumerated Values</h4>
-    <table>
-    <thead>
-    <tr>
-    <th>Property</th>
-    <th>Value</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td>Product Mapping Type</td>
-    <td>autoMapped</td>
-    </tr>
-    <tr>
-    <td>Product Mapping Type</td>
-    <td>new</td>
-    </tr>
-    <tr>
-    <td>Product Mapping Type</td>
-    <td>udated</td>
-    </tr>
-    <tr>
-    <td>Product Mapping Type</td>
-    <td>remapped</td>
-    </tr>
-    </tbody>
-    </table>
-    <h2 id="tocs_image">Image</h2>
-    <p><a id="schemaimage"></a>
-    <a id="schema_Image"></a>`;
+              
+            
+          </div>
+        
+      </div>
+    </div>`;

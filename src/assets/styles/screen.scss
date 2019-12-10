@@ -448,14 +448,16 @@ html, body {
   width: 20px; }
 
 .toc-wrapper {
-  position: sticky;
+  left: 70px;
+  position: fixed;
+  top: 130px;
   transition: left 0.3s ease-in-out;
   overflow-y: auto;
   overflow-x: hidden;
   //position: absolute;
   z-index: 30;
-  top: 0;
-  left: 0;
+  //top: 0;
+  //left: 0;
   bottom: 0;
   width: 230px;
   background-color: #2E3336;

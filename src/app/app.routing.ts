@@ -22,9 +22,9 @@ const routes: Routes = [
   },
 ];
 
-export const AppRoutingModule: ModuleWithProviders<RouterModule> = RouterModule.forRoot(routes, {
-  enableTracing: true,
-  scrollPositionRestoration: 'enabled',
-  anchorScrolling: 'enabled'
-
-});
+export const AppRoutingModule: ModuleWithProviders<RouterModule> = RouterModule.forRoot(
+  routes,
+  {
+    enableTracing: true,
+  }
+);

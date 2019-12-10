@@ -1,11 +1,14 @@
 .shins-wrapper {
-  position: relative;
-
-  display: flex;
+  div {
+    position: relative;
+    display: flex;
+  }
 }
 .pr {
   height:800px;
   width: 500px;
+  background: black;
+  padding: 20px;
 }
 
 

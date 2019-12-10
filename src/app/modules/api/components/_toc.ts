@@ -1,7 +1,5 @@
 import * as $ from 'jquery';
 /* tslint:disable */
-// export function initToc(): void {
-//   console.log(4);
 
   var htmlPattern = /<[^>]*>/g;
   var loaded = false;
@@ -20,9 +18,7 @@ import * as $ from 'jquery';
   };
 
   var closeToc = function() {
-    // console.log('closeToc');
     $(".toc-wrapper").removeClass('open');
-    // $("#nav-button").removeClass('open');
   };
 
   export function loadToc($toc, tocLinkSelector, tocListSelector, scrollOffset) {
@@ -36,13 +32,9 @@ import * as $ from 'jquery';
       headerHeights = {};
       pageHeight = $(document).height();
       windowHeight = $(window).height();
-      // console.log(39, $toc.find(tocLinkSelector));
       $toc.find(tocLinkSelector).each(function() {
-        // console.log(40, this);
-        var targetId = $(this).attr('href');
-        // console.log(42, targetId);
-        // console.log(43,  $(targetId));
-        // console.log(44,  $(targetId).offset());
+        var targetId = $(this).attr('data-href');
+        console.log(47, targetId,  $(targetId).offset());
         if (targetId[0] === "#") {
           headerHeights[targetId] = $(targetId).offset().top;
         }
@@ -50,7 +42,7 @@ import * as $ from 'jquery';
     };
 
     var refreshToc = function() {
-      // console.log('refreshToc');
+      console.log('refreshToc');
       var currentTop = $(document).scrollTop() + scrollOffset;
 
       if (currentTop + windowHeight >= pageHeight) {
@@ -63,17 +55,15 @@ import * as $ from 'jquery';
       var best = null;
       for (var name in headerHeights) {
         if ((headerHeights[name] < currentTop && headerHeights[name] > headerHeights[best]) || best === null) {
+          // console.log(67, name);
           best = name;
         }
       }
+      console.log(70, headerHeights);
 
       // Catch the initial load case
-      if (currentTop == scrollOffset && !loaded) {
-        best = window.location.hash;
-        loaded = true;
-      }
-
-      var $best = $toc.find("[href='" + best + "']").first();
+      var $best = $toc.find("[data-href='" + best + "']").first();
+      // console.log(78, $best);
       if (!$best.hasClass("active")) {
         // .active is applied to the ToC link we're currently on, and its parent <ul>s selected by tocListSelector
         // .active-expanded is applied to the ToC links that are parents of this one
@@ -84,9 +74,6 @@ import * as $ from 'jquery';
         $best.siblings(tocListSelector).addClass("active");
         $toc.find(tocListSelector).filter(":not(.active)").slideUp(150);
         $toc.find(tocListSelector).filter(".active").slideDown(150);
-        if (window.history.replaceState) {
-          window.history.replaceState(null, "", best);
-        }
         var thisTitle = $best.data("title")
         if (thisTitle !== undefined && thisTitle.length > 0) {
           document.title = thisTitle + " – " + originalTitle;
@@ -97,27 +84,19 @@ import * as $ from 'jquery';
     };
 
     var makeToc = function() {
-      // console.log('makeToc');
       recacheHeights();
       refreshToc();
-      // console.log(99, $("#nav-button"));
-      // $("#nav-button").click(function() {
-      //   $(".toc-wrapper").toggleClass('open');
-      //   $("#nav-button").toggleClass('open');
-      //   return false;
-      // });
+      $("#nav-button").click(function() {
+        $(".toc-wrapper").toggleClass('open');
+        $("#nav-button").toggleClass('open');
+        return false;
+      });
       $(".page-wrapper").click(closeToc);
-      // console.log(107, $(".toc-link"));
       $(".toc-link").click(closeToc);
-
-      // reload immediately after scrolling on toc click
-      // console.log(110, $toc);
-      // console.log(111, tocLinkSelector);
       $toc.find(tocLinkSelector).click(function(e) {
-        // console.log(113, 'click');
-        // e.preventDefault();
         setTimeout(function() {
-          refreshToc();
+          console.log(121, 'refreshtoc', e);
+          handleClick(e);
         }, 0);
       });
 
@@ -125,11 +104,31 @@ import * as $ from 'jquery';
       $(window).resize(debounce(recacheHeights, 200));
     };
 
+    var handleClick = function(e) {
+      const $best = $(e.target);
+
+      const best = $best.attr('data-href');
+
+      if (!$best.hasClass("active")) {
+        $toc.find(".active").removeClass("active");
+        $toc.find(".active-parent").removeClass("active-parent");
+        $best.addClass("active");
+
+        $best.parents(tocListSelector).addClass("active").siblings(tocLinkSelector).addClass('active-parent');
+        $best.siblings(tocListSelector).addClass("active");
+        $toc.find(tocListSelector).filter(":not(.active)").slideUp(150);
+        $toc.find(tocListSelector).filter(".active").slideDown(150);
+        var dest = 0;
+        for (var name in headerHeights) {
+          if(name === best) {
+            dest = headerHeights[name];
+          }
+        }
+        $(window).scrollTop(dest);
+      }
+    };
+
     makeToc();
-    //
     (window as any).recacheHeights = recacheHeights;
     (window as any).refreshToc = refreshToc;
   }
-
-  // (window as any).loadToc = loadToc;
-// };
