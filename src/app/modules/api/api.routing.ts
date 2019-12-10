@@ -4,6 +4,11 @@ import { ModuleWithProviders } from '@angular/core';
 import { ApiComponent } from './api.component';
 
 const routes: Routes = [
+  // {
+  //   path: '',
+  //   redirectTo: '#promotions',
+  //   pathMatch: 'full'
+  // },
   {
     path: '',
     component: ApiComponent
