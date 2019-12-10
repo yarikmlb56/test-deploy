@@ -25,10 +25,8 @@
             ],
             "styles": [
               "src/styles.scss"
-//              "src/assets/styles/screen.scss"
             ],
             "scripts": [
-              "../node_modules/jquery/dist/jquery.min.js"
             ]
           },
           "configurations": {
