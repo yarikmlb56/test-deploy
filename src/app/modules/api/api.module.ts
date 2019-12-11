@@ -4,13 +4,12 @@ import { ApiComponent } from './api.component';
 
 import { SharedModule } from '../shared/shared.module';
 import { ApiRoutingModule } from './api.routing';
-import {SafeHtmlPipe, ShinsComponent} from "./components/shins.component";
+import { ShinsComponent } from './components/shins.component';
 
 @NgModule({
   declarations: [
     ApiComponent,
     ShinsComponent,
-    SafeHtmlPipe,
   ],
   imports: [
     SharedModule,
@@ -21,4 +20,5 @@ import {SafeHtmlPipe, ShinsComponent} from "./components/shins.component";
     ApiComponent,
   ],
 })
-export class ApiModule {}
+export class ApiModule {
+}

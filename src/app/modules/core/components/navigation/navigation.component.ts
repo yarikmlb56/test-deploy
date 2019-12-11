@@ -12,8 +12,8 @@ import { LogoType } from 'src/types/enums/logoType';
 export class NavigationComponent implements OnInit {
   readonly logoType = LogoType;
   readonly navigationItems: NavigationItem[] = [
-    {label: 'APIs', route: '#', children: [{
-        label: 'APIs', route: '#'
+    {label: 'APIs', route: 'api', children: [{
+        label: 'APIs', route: 'api'
       }]
     }
   ];

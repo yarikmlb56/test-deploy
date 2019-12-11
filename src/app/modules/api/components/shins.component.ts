@@ -1,19 +1,9 @@
-import {AfterViewInit, Component, Pipe, PipeTransform} from '@angular/core';
-import innerHtml from './innerHtml';
+import { AfterViewInit, Component } from '@angular/core';
 
 import { loadToc } from './_toc';
 
 import * as $ from 'jquery';
-import {DomSanitizer} from "@angular/platform-browser";
-
-@Pipe({ name: 'safeHtml'})
-export class SafeHtmlPipe implements PipeTransform {
-  constructor(private sanitized: DomSanitizer) {
-  }
-  transform(value) {
-    return this.sanitized.bypassSecurityTrustHtml(value);
-  }
-}
+import innerHtml from './innerHtml';
 
 @Component({
   selector: 'app-shins',
