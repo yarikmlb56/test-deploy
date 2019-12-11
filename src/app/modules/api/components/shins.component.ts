@@ -1,5 +1,6 @@
 import { AfterViewInit, Component } from '@angular/core';
 
+import { setupLanguages } from './_lang';
 import { loadToc } from './_toc';
 
 import * as $ from 'jquery';
@@ -21,6 +22,8 @@ export class ShinsComponent implements AfterViewInit {
       '.toc-list-h2, .toc-list-h3, .toc-list-h4, .toc-list-h5, .toc-list-h6',
       10
     );
+
+    setupLanguages($('.shins-wrapper').data('languages'));
 
   }
 }

@@ -1,11 +1,8 @@
 import * as $ from 'jquery';
 /* tslint:disable */
 
-  var htmlPattern = /<[^>]*>/g;
-  var loaded = false;
-
-  var debounce = function(func, waitTime) {
-    var timeout = false;
+  let debounce = function(func, waitTime) {
+    let timeout = false;
     return function() {
       if (timeout === false) {
         setTimeout(function() {
@@ -17,33 +14,33 @@ import * as $ from 'jquery';
     };
   };
 
-  var closeToc = function() {
+  let closeToc = function() {
     $(".toc-wrapper").removeClass('open');
   };
 
   export function loadToc($toc, tocLinkSelector, tocListSelector, scrollOffset) {
-    console.log('loadToc');
-    var headerHeights = {};
-    var pageHeight = 0;
-    var windowHeight = 0;
-    var originalTitle = document.title;
+    // console.log('loadToc');
+    let headerHeights = {};
+    let pageHeight = 0;
+    let windowHeight = 0;
+    let originalTitle = document.title;
 
-    var recacheHeights = function() {
+    let recacheHeights = function() {
       headerHeights = {};
       pageHeight = $(document).height();
       windowHeight = $(window).height();
       $toc.find(tocLinkSelector).each(function() {
-        var targetId = $(this).attr('data-href');
-        console.log(47, targetId,  $(targetId).offset());
+        let targetId = $(this).attr('data-href');
+        // console.log(47, targetId,  $(targetId).offset());
         if (targetId[0] === "#") {
           headerHeights[targetId] = $(targetId).offset().top;
         }
       });
     };
 
-    var refreshToc = function() {
-      console.log('refreshToc');
-      var currentTop = $(document).scrollTop() + scrollOffset;
+    let refreshToc = function() {
+      // console.log('refreshToc');
+      let currentTop = $(document).scrollTop() + scrollOffset;
 
       if (currentTop + windowHeight >= pageHeight) {
         // at bottom of page, so just select last header by making currentTop very large
@@ -52,17 +49,17 @@ import * as $ from 'jquery';
         currentTop = pageHeight + 1000;
       }
 
-      var best = null;
-      for (var name in headerHeights) {
+      let best = null;
+      for (let name in headerHeights) {
         if ((headerHeights[name] < currentTop && headerHeights[name] > headerHeights[best]) || best === null) {
           // console.log(67, name);
           best = name;
         }
       }
-      console.log(70, headerHeights);
+      // console.log(70, headerHeights);
 
       // Catch the initial load case
-      var $best = $toc.find("[data-href='" + best + "']").first();
+      let $best = $toc.find("[data-href='" + best + "']").first();
       // console.log(78, $best);
       if (!$best.hasClass("active")) {
         // .active is applied to the ToC link we're currently on, and its parent <ul>s selected by tocListSelector
@@ -74,7 +71,7 @@ import * as $ from 'jquery';
         $best.siblings(tocListSelector).addClass("active");
         $toc.find(tocListSelector).filter(":not(.active)").slideUp(150);
         $toc.find(tocListSelector).filter(".active").slideDown(150);
-        var thisTitle = $best.data("title")
+        let thisTitle = $best.data("title")
         if (thisTitle !== undefined && thisTitle.length > 0) {
           document.title = thisTitle + " – " + originalTitle;
         } else {
@@ -83,7 +80,7 @@ import * as $ from 'jquery';
       }
     };
 
-    var makeToc = function() {
+    let makeToc = function() {
       recacheHeights();
       refreshToc();
       $("#nav-button").click(function() {
@@ -95,7 +92,6 @@ import * as $ from 'jquery';
       $(".toc-link").click(closeToc);
       $toc.find(tocLinkSelector).click(function(e) {
         setTimeout(function() {
-          console.log(121, 'refreshtoc', e);
           handleClick(e);
         }, 0);
       });
@@ -104,7 +100,7 @@ import * as $ from 'jquery';
       $(window).resize(debounce(recacheHeights, 200));
     };
 
-    var handleClick = function(e) {
+    let handleClick = function(e) {
       const $best = $(e.target);
 
       const best = $best.attr('data-href');
@@ -118,8 +114,8 @@ import * as $ from 'jquery';
         $best.siblings(tocListSelector).addClass("active");
         $toc.find(tocListSelector).filter(":not(.active)").slideUp(150);
         $toc.find(tocListSelector).filter(".active").slideDown(150);
-        var dest = 0;
-        for (var name in headerHeights) {
+        let dest = 0;
+        for (let name in headerHeights) {
           if(name === best) {
             dest = headerHeights[name];
           }

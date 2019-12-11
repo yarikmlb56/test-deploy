@@ -21,7 +21,6 @@ export class NavigationComponent implements OnInit {
   public isDropdownOpened = false;
 
   ngOnInit(): void {
-    console.log(18, LogoType.Header);
   }
 
   handleMouseEnter(event: Event, navigationItem: NavigationItem): void {
