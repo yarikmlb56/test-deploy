@@ -19,7 +19,6 @@ import * as $ from 'jquery';
   };
 
   export function loadToc($toc, tocLinkSelector, tocListSelector, scrollOffset) {
-    // console.log('loadToc');
     let headerHeights = {};
     let pageHeight = 0;
     let windowHeight = 0;
@@ -31,7 +30,6 @@ import * as $ from 'jquery';
       windowHeight = $(window).height();
       $toc.find(tocLinkSelector).each(function() {
         let targetId = $(this).attr('data-href');
-        // console.log(47, targetId,  $(targetId).offset());
         if (targetId[0] === "#") {
           headerHeights[targetId] = $(targetId).offset().top;
         }
@@ -39,7 +37,6 @@ import * as $ from 'jquery';
     };
 
     let refreshToc = function() {
-      // console.log('refreshToc');
       let currentTop = $(document).scrollTop() + scrollOffset;
 
       if (currentTop + windowHeight >= pageHeight) {
@@ -52,15 +49,11 @@ import * as $ from 'jquery';
       let best = null;
       for (let name in headerHeights) {
         if ((headerHeights[name] < currentTop && headerHeights[name] > headerHeights[best]) || best === null) {
-          // console.log(67, name);
           best = name;
         }
       }
-      // console.log(70, headerHeights);
-
       // Catch the initial load case
       let $best = $toc.find("[data-href='" + best + "']").first();
-      // console.log(78, $best);
       if (!$best.hasClass("active")) {
         // .active is applied to the ToC link we're currently on, and its parent <ul>s selected by tocListSelector
         // .active-expanded is applied to the ToC links that are parents of this one

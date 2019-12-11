@@ -1,707 +1,707 @@
 /* tslint:disable */
 export default `<div class="toc-wrapper">
-      
+
         <div class="lang-selector">
-          
-            
+
+
               <a href="#" data-language-name="ruby">Ruby</a>
-            
-          
-            
+
+
+
               <a href="#" data-language-name="python">Python</a>
-            
-          
+
+
         </div>
-      
-      
+
+
       <div id="toc" class="toc-list-h1">
 	  	<ul class="toc-list-h1">
-        
+
           <li>
             <span data-href="#api-for-tax-calculator" class="toc-h1 toc-link" data-title="API for Tax Calculator v0.0.2 alfa, Dec 2019">API for Tax Calculator v0.0.2 alfa, Dec 2019</span>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#authentication" class="toc-h1 toc-link" data-title="Authentication">Authentication</span>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-notification-template" class="toc-h1 toc-link" data-title="Notification template">Notification template</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#return-registered-templates-" class="toc-h2 toc-link" data-title="">Return registered templates.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#register-new-template-" class="toc-h2 toc-link" data-title="">Register new template.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#get-template-" class="toc-h2 toc-link" data-title="">Get template.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#update-template-" class="toc-h2 toc-link" data-title="">Update template.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#delete-template-" class="toc-h2 toc-link" data-title="">Delete template.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#send-notification-" class="toc-h2 toc-link" data-title="">Send notification.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-account-management" class="toc-h1 toc-link" data-title="Account Management">Account Management</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#create-new-account-" class="toc-h2 toc-link" data-title="">Create new account.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#get-account-information-" class="toc-h2 toc-link" data-title="">Get account information.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#update-an-account-" class="toc-h2 toc-link" data-title="">Update an account.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#make-an-account-inactive-" class="toc-h2 toc-link" data-title="">Make an account inactive.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#get-a-link-for-resetting-account-password-" class="toc-h2 toc-link" data-title="">Get a link for resetting account password.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-token-management" class="toc-h1 toc-link" data-title="Token Management">Token Management</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#get-active-tokens" class="toc-h2 toc-link" data-title="">Get active tokens</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#generate-token-" class="toc-h2 toc-link" data-title="">Generate token.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#revoke-the-token-" class="toc-h2 toc-link" data-title="">Revoke the token.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-contact-information" class="toc-h1 toc-link" data-title="Contact Information">Contact Information</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#get-contact-information-" class="toc-h2 toc-link" data-title="">Get contact information.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#add-contact-information-" class="toc-h2 toc-link" data-title="">Add contact information.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#update-contact-information-" class="toc-h2 toc-link" data-title="">Update contact information.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-location" class="toc-h1 toc-link" data-title="Location">Location</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#get-account-locations-" class="toc-h2 toc-link" data-title="">Get account locations.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#add-location-" class="toc-h2 toc-link" data-title="">Add location.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#get-location-" class="toc-h2 toc-link" data-title="">Get location.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#update-location-" class="toc-h2 toc-link" data-title="">Update location.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#delete-location-" class="toc-h2 toc-link" data-title="">Delete location.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#standardize-a-location-" class="toc-h2 toc-link" data-title="">Standardize a location.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-business-info" class="toc-h1 toc-link" data-title="Business Info">Business Info</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#get-business-information-" class="toc-h2 toc-link" data-title="">Get business information.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#add-business-information-" class="toc-h2 toc-link" data-title="">Add business information.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#update-business-information-" class="toc-h2 toc-link" data-title="">Update business information.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-product-catalog" class="toc-h1 toc-link" data-title="Product Catalog">Product Catalog</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#return-available-product-catalogs-" class="toc-h2 toc-link" data-title="">Return available product catalogs.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#upload-and-validate-product-catalog-" class="toc-h2 toc-link" data-title="">Upload and validate product catalog.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#return-product-catalog" class="toc-h2 toc-link" data-title="">Return product catalog</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#remap-tax-categories-" class="toc-h2 toc-link" data-title="">Remap tax categories.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#get-product-catalog-processing-status" class="toc-h2 toc-link" data-title="">Get product catalog processing status</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#accept-product-catalog-categorization-" class="toc-h2 toc-link" data-title="">Accept product catalog categorization.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#download-product-catalog-" class="toc-h2 toc-link" data-title="">Download product catalog.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-product" class="toc-h1 toc-link" data-title="Product">Product</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#lookup-products-from-the-defined-catalog-" class="toc-h2 toc-link" data-title="">Lookup products from the defined catalog.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#add-product-to-the-catalog-" class="toc-h2 toc-link" data-title="">Add product to the catalog.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#return-the-product-from-the-catalog-" class="toc-h2 toc-link" data-title="">Return the product from the catalog.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#update-the-product-" class="toc-h2 toc-link" data-title="">Update the product.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-logging" class="toc-h1 toc-link" data-title="Logging">Logging</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#return-tax-calculation-call-logs-" class="toc-h2 toc-link" data-title="">Return tax calculation call logs.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-transaction-journal" class="toc-h1 toc-link" data-title="Transaction Journal">Transaction Journal</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#get-transactions-" class="toc-h2 toc-link" data-title="">Get transactions.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#get-transaction-summary-" class="toc-h2 toc-link" data-title="">Get Transaction Summary.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#download-journal-in-cvs-" class="toc-h2 toc-link" data-title="">Download journal in CVS.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#api-for-tax-calculator-transaction-management" class="toc-h1 toc-link" data-title="Transaction Management">Transaction Management</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#consume-transaction-" class="toc-h2 toc-link" data-title="">Consume transaction.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#get-transaction-" class="toc-h2 toc-link" data-title="">Get transaction.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#delete-transaction-" class="toc-h2 toc-link" data-title="">Delete transaction.</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#update-specified-transaction-" class="toc-h2 toc-link" data-title="">Update specified transaction.</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
           <li>
             <span data-href="#schemas" class="toc-h1 toc-link" data-title="Schemas">Schemas</span>
-            
+
               <ul class="toc-list-h2">
-                
+
                   <li>
                     <span data-href="#tocs_object" class="toc-h2 toc-link" data-title="">Object</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_link" class="toc-h2 toc-link" data-title="">Link</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_pagination" class="toc-h2 toc-link" data-title="">Pagination</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_fetchinfo" class="toc-h2 toc-link" data-title="">FetchInfo</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_entity" class="toc-h2 toc-link" data-title="">Entity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_error" class="toc-h2 toc-link" data-title="">Error</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_errors" class="toc-h2 toc-link" data-title="">Errors</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_amount" class="toc-h2 toc-link" data-title="">Amount</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_date" class="toc-h2 toc-link" data-title="">Date</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_datetime" class="toc-h2 toc-link" data-title="">DateTime</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_email" class="toc-h2 toc-link" data-title="">Email</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_phone" class="toc-h2 toc-link" data-title="">Phone</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_period" class="toc-h2 toc-link" data-title="">Period</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_processingstatus" class="toc-h2 toc-link" data-title="">ProcessingStatus</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_message" class="toc-h2 toc-link" data-title="">Message</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_messageentity" class="toc-h2 toc-link" data-title="">MessageEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_template" class="toc-h2 toc-link" data-title="">Template</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_templateentity" class="toc-h2 toc-link" data-title="">TemplateEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_templates" class="toc-h2 toc-link" data-title="">Templates</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_parameter" class="toc-h2 toc-link" data-title="">Parameter</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_locationtype" class="toc-h2 toc-link" data-title="">LocationType</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_location" class="toc-h2 toc-link" data-title="">Location</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_locationentity" class="toc-h2 toc-link" data-title="">LocationEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_locations" class="toc-h2 toc-link" data-title="">Locations</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_contact" class="toc-h2 toc-link" data-title="">Contact</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_contactentity" class="toc-h2 toc-link" data-title="">ContactEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_contactinfo" class="toc-h2 toc-link" data-title="">ContactInfo</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_contactinfoentity" class="toc-h2 toc-link" data-title="">ContactInfoEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_state" class="toc-h2 toc-link" data-title="">State</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_account" class="toc-h2 toc-link" data-title="">Account</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_accountentity" class="toc-h2 toc-link" data-title="">AccountEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_accountinfo" class="toc-h2 toc-link" data-title="">AccountInfo</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_tokentype" class="toc-h2 toc-link" data-title="">TokenType</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_token" class="toc-h2 toc-link" data-title="">Token</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_tokens" class="toc-h2 toc-link" data-title="">Tokens</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_businessinfo" class="toc-h2 toc-link" data-title="">BusinessInfo</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_businessinfoentity" class="toc-h2 toc-link" data-title="">BusinessInfoEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_taxcategory" class="toc-h2 toc-link" data-title="">TaxCategory</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_taxcategoryentity" class="toc-h2 toc-link" data-title="">TaxCategoryEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_taxcategories" class="toc-h2 toc-link" data-title="">TaxCategories</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_productcatalog" class="toc-h2 toc-link" data-title="">ProductCatalog</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_productcatalogentity" class="toc-h2 toc-link" data-title="">ProductCatalogEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_productcatalogs" class="toc-h2 toc-link" data-title="">ProductCatalogs</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_category" class="toc-h2 toc-link" data-title="">Category</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_categories" class="toc-h2 toc-link" data-title="">Categories</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_mappingtype" class="toc-h2 toc-link" data-title="">MappingType</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_image" class="toc-h2 toc-link" data-title="">Image</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_product" class="toc-h2 toc-link" data-title="">Product</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_productentity" class="toc-h2 toc-link" data-title="">ProductEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_stockunit" class="toc-h2 toc-link" data-title="">StockUnit</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_stockunitentity" class="toc-h2 toc-link" data-title="">StockUnitEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_products" class="toc-h2 toc-link" data-title="">Products</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_taxlevel" class="toc-h2 toc-link" data-title="">TaxLevel</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_taxrate" class="toc-h2 toc-link" data-title="">TaxRate</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_tax" class="toc-h2 toc-link" data-title="">Tax</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_transactiontype" class="toc-h2 toc-link" data-title="">TransactionType</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_transactionstatus" class="toc-h2 toc-link" data-title="">TransactionStatus</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_transaction" class="toc-h2 toc-link" data-title="">Transaction</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_transactionentity" class="toc-h2 toc-link" data-title="">TransactionEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_transactions" class="toc-h2 toc-link" data-title="">Transactions</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_orderitem" class="toc-h2 toc-link" data-title="">OrderItem</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_ordertotal" class="toc-h2 toc-link" data-title="">OrderTotal</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_order" class="toc-h2 toc-link" data-title="">Order</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_orderentity" class="toc-h2 toc-link" data-title="">OrderEntity</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_transactionsummary" class="toc-h2 toc-link" data-title="">TransactionSummary</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_log" class="toc-h2 toc-link" data-title="">Log</span>
-                    
+
                   </li>
-                
+
                   <li>
                     <span data-href="#tocs_logs" class="toc-h2 toc-link" data-title="">Logs</span>
-                    
+
                   </li>
-                
+
               </ul>
-            
+
           </li>
-        
+
 		</ul>
       </div>
-      
+
         <ul class="toc-footer">
-          
+
         </ul>
-      
+
     </div>
     <div class="page-wrapper">
       <div class="dark-box"></div>
@@ -10452,18 +10452,18 @@ apiKeyAuth
 <!-- backwards compatibility -->
       </div>
       <div class="dark-box">
-        
+
           <div class="lang-selector">
-            
-              
+
+
                 <a href="#" data-language-name="ruby">Ruby</a>
-              
-            
-              
+
+
+
                 <a href="#" data-language-name="python">Python</a>
-              
-            
+
+
           </div>
-        
+
       </div>
     </div>`;
