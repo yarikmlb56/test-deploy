@@ -502,7 +502,12 @@ html, body {
 .toc-wrapper {
   position: relative;
   transition: left 0.3s ease-in-out;
+  overflow-y: auto;
+  overflow-x: hidden;
   z-index: 30;
+  //top: 0;
+  //left: 0;
+  bottom: 0;
   width: 230px;
   background-color: #2E3336;
   font-size: 13px;
@@ -515,10 +520,6 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
-}
-
-.toc-wrapper .lang-selector {
-  display: none;
 }
 
 .toc-wrapper .lang-selector a {
@@ -596,7 +597,10 @@ html, body {
 }
 
 .toc-wrapper li {
-  color: #fff;
+  color: #131313;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
   transition-property: background;
   transition-timing-function: linear;
   transition-duration: 200ms;
@@ -614,13 +618,16 @@ html, body {
 
 .toc-wrapper .toc-list-h2 {
   display: none;
-  background-color: #1E2224;
+  //background-color: #1E2224;
   font-weight: 500;
 }
 
 .toc-wrapper .toc-h2 {
   padding-left: 25px;
+  color: #131313;
+  font-family: Montserrat;
   font-size: 12px;
+  font-weight: 400;
 }
 
 .toc-wrapper .toc-footer {
@@ -645,21 +652,39 @@ html, body {
 }
 
 .toc-wrapper {
+  .toc-h1 {
+    position: relative;
+  }
   .toc-h1:after {
     color: white;
     display: block;
     content: "";
     width: 6px;
     height: 12px;
-    background: url('assets/images/chevron-right-solid.svg') no-repeat;
+    background: url('assets/images/chevron-right-solid.svg') no-repeat  center;
+    position: absolute;
+    margin: auto;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    //transition-timing-function: linear;
+    //transition-duration: 200ms;
+  }
+  .toc-h1.active:after, .toc-h1.active-parent:after {
+    transform: rotate(90deg);
+    color: #fff;
+  }
+  .toc-h1.active:after {
+    background: url('assets/images/chevron-right-solid-white.svg') no-repeat  center;
   }
 }
 
 .toc-link, .toc-footer li {
-  padding: 0 15px 0 15px;
+  padding: 0 40px 0 0;
+  white-space: normal;
+  margin-left: 10px;
   display: block;
   overflow-x: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
   text-decoration: none;
   color: #fff;
@@ -808,6 +833,8 @@ html, body {
   margin-bottom: 21px;
   margin-top: 2em;
   background-color: #ffffff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .content h1:first-child, .content div:first-child + h1 {
