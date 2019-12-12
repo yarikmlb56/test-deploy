@@ -500,21 +500,21 @@ html, body {
 }
 
 .toc-wrapper {
-  left: 70px;
-  position: fixed;
-  top: 130px;
+  position: relative;
   transition: left 0.3s ease-in-out;
-  overflow-y: auto;
-  overflow-x: hidden;
-  //position: absolute;
   z-index: 30;
-  //top: 0;
-  //left: 0;
-  bottom: 0;
   width: 230px;
   background-color: #2E3336;
   font-size: 13px;
   font-weight: bold;
+}
+
+.toc-wrapper .toc-list-h1 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .toc-wrapper .lang-selector {
@@ -706,7 +706,6 @@ html, body {
 }
 
 .page-wrapper {
-  margin-left: 230px;
   position: relative;
   z-index: 10;
   background-color: #ffffff;
@@ -724,7 +723,8 @@ html, body {
 }
 
 .page-wrapper .lang-selector {
-  position: fixed;
+  position: sticky;
+  top: 0;
   z-index: 50;
   border-bottom: 5px solid #2E3336;
 }
