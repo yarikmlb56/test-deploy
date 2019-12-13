@@ -8,8 +8,4 @@ import { NavigationItem } from 'src/types/interfaces/navigation-item';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  items: NavigationItem[] = [
-    { route: '/sign-in', label: 'Login' },
-    { route: '/sign-up', label: 'Create account' }
-  ];
 }

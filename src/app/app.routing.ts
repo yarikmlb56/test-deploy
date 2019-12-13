@@ -9,14 +9,6 @@ const routes: Routes = [
     loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule)
   },
   {
-    path: 'sign-in',
-    loadChildren: () => import('./modules/signin/sign-in.module').then(m => m.SignInModule)
-  },
-  {
-    path: 'sign-up',
-    component: SignUpComponent
-  },
-  {
     path: 'api',
     loadChildren: () => import('./modules/api/api.module').then(m => m.ApiModule)
   },
