@@ -740,7 +740,7 @@ html, body {
 
 .page-wrapper .dark-box {
   width: 50%;
-  background-color: #2E3336;
+  background-color: #393c3f;
   position: absolute;
   right: 0;
   top: 0;
@@ -751,23 +751,29 @@ html, body {
   position: sticky;
   top: 0;
   z-index: 50;
-  border-bottom: 5px solid #2E3336;
+  background-color: #1b1c1e;
 }
 
 .lang-selector {
   background-color: #1E2224;
-  width: 100%;
+  width: calc(100% - 56px);
   font-weight: bold;
+  padding: 10px 28px;
 }
 
 .lang-selector a {
   display: block;
   float: left;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
-  padding: 0 10px;
+  padding: 4px 30px;
+  font-size: 6px;
+  font-weight: 500;
   line-height: 30px;
   outline: 0;
+  margin-right: 16px;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
 }
 
 .lang-selector a:active, .lang-selector a:focus {
@@ -776,8 +782,8 @@ html, body {
 }
 
 .lang-selector a.active {
-  background-color: #2E3336;
-  color: #fff;
+  background-color: #ffffff;
+  color: #131313;
 }
 
 .lang-selector:after {
@@ -982,7 +988,6 @@ html, body {
 }
 
 .content pre, .content blockquote {
-  background-color: #1E2224;
   color: #fff;
   margin: 0;
   width: 50%;
@@ -1002,15 +1007,17 @@ html, body {
 }
 
 .content pre {
-  padding-top: 2em;
-  padding-bottom: 2em;
   padding: 2em 28px;
 }
 
 .content blockquote > p {
-  background-color: #191D1F;
-  padding: 13px 2em;
-  color: #eee;
+  padding: 13px 28px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.07px;
+  line-height: 24px;
 }
 
 @media (max-width: 930px) {
@@ -1052,6 +1059,12 @@ html, body {
   .content > pre + h1, .content > blockquote + h1, .content > pre + h2, .content > blockquote + h2, .content > pre + h3, .content > blockquote + h3, .content > pre + h4, .content > blockquote + h4, .content > pre + h5, .content > blockquote + h5, .content > pre + h6, .content > blockquote + h6, .content > pre + p, .content > blockquote + p, .content > pre + table, .content > blockquote + table, .content > pre + ul, .content > blockquote + ul, .content > pre + ol, .content > blockquote + ol, .content > pre + aside, .content > blockquote + aside, .content > pre + dl, .content > blockquote + dl {
     margin-top: 28px;
   }
+}
+
+.highlight.tab {
+  background-color: #313436;
+  margin: 33px 27px;
+  width: calc(50% - 54px);
 }
 
 .highlight .c, .highlight .cm, .highlight .c1, .highlight .cs {
