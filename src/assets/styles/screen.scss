@@ -1,33 +1,3 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
-
-/**
- * Remove default margin.
- */
-body {
-  margin: 0;
-}
-
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
 article,
 aside,
 details,
@@ -411,14 +381,6 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations
 under the License.
 */
-.content h1, .content h2, .content h3, .content h4, .content h5, .content h6, html, body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 14px;
-}
-
-.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-  font-weight: bold;
-}
 
 .content code, .content pre {
   font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
@@ -480,17 +442,6 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations
 under the License.
 */
-html, body {
-  color: #333;
-  padding: 0;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #F3F7F9;
-  height: 100%;
-  -webkit-text-size-adjust: none;
-  /* Never autoresize text */
-}
 
 #toc > ul > li > a > span {
   float: right;
@@ -517,6 +468,9 @@ html, body {
   right: 0;
   bottom: 0;
   border-right: 1px solid #e1e1e1;
+}
+.toc-list-h1 > li {
+  display: block;
 }
 ul.toc-list-h1 li:first-child{
   .toc-link::after {
@@ -606,6 +560,12 @@ ul.toc-list-h1 li:first-child{
   transition-property: background;
   transition-timing-function: linear;
   transition-duration: 200ms;
+  cursor: pointer;
+  display: flex;
+}
+
+.toc-list-h1 > li {
+  display: block;
 }
 
 .toc-wrapper .toc-link.active {
@@ -619,8 +579,7 @@ ul.toc-list-h1 li:first-child{
   font-weight: 500;
 }
 
-.toc-wrapper .toc-h2 {
-  padding-left: 25px;
+.toc-wrapper .toc-link {
   color: #131313;
   font-family: Montserrat;
   font-size: 12px;
@@ -661,7 +620,7 @@ ul.toc-list-h1 li:first-child{
     background: url('assets/images/chevron-right-solid.svg') no-repeat  center;
     position: absolute;
     margin: auto;
-    right: 20px;
+    right: 10px;
     top: 0;
     bottom: 0;
     //transition-timing-function: linear;
@@ -677,10 +636,8 @@ ul.toc-list-h1 li:first-child{
 }
 
 .toc-link, .toc-footer li {
-  padding: 10px 0;
   line-height: 26px;
   white-space: normal;
-  border-bottom: 1px solid #e1e1e1;
   display: block;
   overflow-x: hidden;
   text-overflow: ellipsis;
@@ -688,6 +645,10 @@ ul.toc-list-h1 li:first-child{
   transition-property: background;
   transition-timing-function: linear;
   transition-duration: 130ms;
+}
+.toc-link.toc-h1 {
+  padding: 10px 0 10px 10px;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 #nav-button {
@@ -1071,4 +1032,24 @@ ul.toc-list-h1 li:first-child{
 
 .highlight, .highlight .w {
   background-color: #1E2224;
+}
+
+.toc-method-label {
+  height: 18px;
+  border: 1px solid #707070;
+  background-color: #003a7a;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  margin-right: 20px;
+}
+
+.toc-list-h2 li {
+  padding: 10px 20px 10px 10px;
+  border-bottom: 1px solid #e1e1e1;
 }
