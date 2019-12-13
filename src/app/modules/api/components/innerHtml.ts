@@ -392,9 +392,6 @@ export default `
         </ul>
       </div>
       
-        <ul class="toc-footer">
-          
-        </ul>
       
     </div>
     <div class="page-wrapper">
