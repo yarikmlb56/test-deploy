@@ -5,6 +5,7 @@ import { loadToc } from './_toc';
 
 import * as $ from 'jquery';
 import innerHtml from './innerHtml';
+import { handleSchemaClick } from './_schemaClick';
 
 @Component({
   selector: 'app-shins',
@@ -24,6 +25,6 @@ export class ShinsComponent implements AfterViewInit {
     );
 
     setupLanguages($('.shins-wrapper').data('languages'));
-
+    handleSchemaClick($('.content'));
   }
 }
