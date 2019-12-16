@@ -29,6 +29,7 @@ import * as $ from 'jquery';
       pageHeight = $(document).height();
       windowHeight = $(window).height();
       $toc.find(tocLinkSelector).each(function() {
+        console.log(32, $(this));
         let targetId = $(this).attr('data-href');
         if (targetId[0] === "#") {
           headerHeights[targetId] = $(targetId).offset().top;
@@ -83,9 +84,16 @@ import * as $ from 'jquery';
       });
       $(".page-wrapper").click(closeToc);
       $(".toc-link").click(closeToc);
-      $toc.find(tocLinkSelector).click(function(e) {
+      console.log(89, $toc);
+      console.log(90, tocLinkSelector);
+      $toc.find(tocLinkSelector + '.toc-h1').click(function(e) {
         setTimeout(function() {
-          handleClick(e);
+          handleClickH1(e);
+        }, 0);
+      });
+      $toc.find(tocLinkSelector + '.toc-h2').click(function(e) {
+        setTimeout(function() {
+          handleClickH2(e);
         }, 0);
       });
 
@@ -93,20 +101,49 @@ import * as $ from 'jquery';
       $(window).resize(debounce(recacheHeights, 200));
     };
 
-    let handleClick = function(e) {
+    let handleClickH1 = function(e) {
       const $best = $(e.target);
+      // console.log(98, $best);
 
       const best = $best.attr('data-href');
-
       if (!$best.hasClass("active")) {
         $toc.find(".active").removeClass("active");
         $toc.find(".active-parent").removeClass("active-parent");
         $best.addClass("active");
-
         $best.parents(tocListSelector).addClass("active").siblings(tocLinkSelector).addClass('active-parent');
         $best.siblings(tocListSelector).addClass("active");
+
         $toc.find(tocListSelector).filter(":not(.active)").slideUp(150);
         $toc.find(tocListSelector).filter(".active").slideDown(150);
+
+        let dest = 0;
+        for (let name in headerHeights) {
+          if(name === best) {
+            dest = headerHeights[name];
+          }
+        }
+        $(window).scrollTop(dest);
+      }
+    };
+
+    let handleClickH2 = function(e) {
+      let $best = $(e.target);
+      if (!$best.hasClass('toc-h2')) {
+        $best = $(e.target).parent();
+      }
+      // console.log(98, $best);
+
+      const best = $best.attr('data-href');
+      if (!$best.hasClass("active")) {
+        $toc.find(".active").removeClass("active");
+        $toc.find(".active-parent").removeClass("active-parent");
+        $best.addClass("active");
+        $best.parents(tocListSelector).addClass("active").siblings(tocLinkSelector).addClass('active-parent');
+        $best.siblings(tocListSelector).addClass("active");
+
+        $toc.find(tocListSelector).filter(":not(.active)").slideUp(150);
+        $toc.find(tocListSelector).filter(".active").slideDown(150);
+
         let dest = 0;
         for (let name in headerHeights) {
           if(name === best) {
