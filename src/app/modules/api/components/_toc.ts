@@ -64,7 +64,7 @@ import * as $ from 'jquery';
         $best.siblings(tocListSelector).addClass("active");
         $toc.find(tocListSelector).filter(":not(.active)").slideUp(150);
         $toc.find(tocListSelector).filter(".active").slideDown(150);
-        let thisTitle = $best.data("title")
+        let thisTitle = $best.data("title");
         if (thisTitle !== undefined && thisTitle.length > 0) {
           document.title = thisTitle + " – " + originalTitle;
         } else {
