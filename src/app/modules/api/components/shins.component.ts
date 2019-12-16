@@ -25,10 +25,6 @@ export class ShinsComponent implements AfterViewInit {
     );
 
     setupLanguages($('.shins-wrapper').data('languages'));
-    handleSchemaClick(
-      $('.content'),
-      $('#toc'),
-      '.toc-link',
-      );
+    handleSchemaClick($('.content'));
   }
 }
